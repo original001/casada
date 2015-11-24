@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "SegoeUI-Light";
+    src: url("../fonts/webfonts/SegoeUILight.eot");
+    src: local("☺︎"), url("../fonts/webfonts/SegoeUILight.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+@ff-3-n: "SegoeUI-Light", helvetica, arial, sans-serif;
+.ff-3-n(){
+font-family:@ff-3-n;
+}

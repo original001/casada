@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "SegoeUI-SemiBold";
+    src: url("../fonts/webfonts/SegoeUISemiBold.eot");
+    src: local("☺︎"), url("../fonts/webfonts/SegoeUISemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+@ff-6-n: "SegoeUI-SemiBold", helvetica, arial, sans-serif;
+.ff-6-n(){
+font-family:@ff-6-n;
+}

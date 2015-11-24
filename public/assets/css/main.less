@@ -4,7 +4,7 @@
 
 @content-width: 1200px;
 @font-size-base: 16px;
-@font-family-base: 'Roboto',Arial, sans-serif;
+@font-family-base: @ff-n-n;
 @line-height-base: 1.42;
 
 @color-red-text: #ed0f33;
@@ -20,6 +20,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2;
+	.ff-7-n;
 }
 p {
 	margin-bottom: 20px;
@@ -110,6 +111,7 @@ a {
 		width: 464px;
 		background-color: white;
 		border: 1px solid white;
+		background-color: #eee;
 		border-radius: 6px;
 		margin: 0 auto 45px;
 		box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.15);
@@ -121,8 +123,8 @@ a {
 			width: 100%;
 			height: 78px;
 			line-height: 78px;
-			background-color: #eee;
-			.plh(#000);
+			color: #404040;
+			.plh(#626262);
 			font-size: 20px;
 			padding: 0 20px;
 			&.error {
@@ -130,15 +132,16 @@ a {
 			}
 		}
 		&-input {
-			opacity: 0.5;
+			background: none;
 			cursor: pointer;
 			transition: background-color .175s;
 			border-top: 2px solid #ccc;
+			border-radius: 4px;
 			&:first-child {
 				border-top: none;
 			}
 			&:hover {
-				background-color: #dadada;
+				background-color: #ececec;
 			}
 		}
 		&-select {

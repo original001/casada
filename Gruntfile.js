@@ -134,7 +134,7 @@ module.exports = function(grunt) {
 				files: [{
 					expand: true,
 					cwd: srcRoot + path,
-					src: ['**/*','!**/*.{less,coffee,ttf}','!**/_*','!**/.*'],
+					src: ['**/*','!**/*.{less,coffee,ttf}','!**/_*','!**/.*','!fonts/webfonts/*.css'],
 					dest: destRoot + path
 				}]
 			}
