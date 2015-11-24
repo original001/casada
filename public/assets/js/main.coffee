@@ -20,13 +20,11 @@ $ ->
 	$ '.js-btn-form'
 		.click (e) ->
 			if validate()
-				$('.js-link').fadeIn(400)
-				$ '#page'
-					.removeClass 'form'
-		
 				$ '.js-form-main, .js-letter'
 					.removeClass 'show'
 
+				$ '.js-loading'
+					.show()
 
 	validate = ->
 		isValid = true

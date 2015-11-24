@@ -20,7 +20,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2;
-	.ff-7-n;
+	font-weight: 700;
 }
 p {
 	margin-bottom: 20px;
@@ -203,6 +203,22 @@ a {
 	&.show {
 		.op(1);
 		left: 100%;
+	}
+}
+
+.b-loading {
+	display: none;
+}
+.loading {
+	color: #fff;
+	text-align: center;
+	&__header {
+		font-size: 22px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	&__text {
+		font-size: 18px;
 	}
 }
 
