@@ -30,24 +30,24 @@ block content
 				| для подбора
 			.form-main__field
 				.form-main__field-wrapper.js-option
-					input#name(type="text", name="name", placeholder="Ваше имя:").form-main__field-input.js-option
+					input#name(type="text", name="name", placeholder="Ваше имя:").form-main__field-input
 					.popup-error.js-popup-error Будем знакомы?
 				.form-main__field-select.js-option
 					label Ваш пол:
 					ul.form-main__field-options
-						li.icon-male.icon-male_male(data-toggle="tab")
-						li.icon-male.icon-male_female(data-toggle="tab")
-						li.icon-male.icon-male_unmale(data-toggle="tab")
+						li.icon-male.icon-male_male.js-radio(data-toggle="tab")
+						li.icon-male.icon-male_female.js-radio(data-toggle="tab")
+						li.icon-male.icon-male_unmale.js-radio(data-toggle="tab")
 					.popup-error.js-popup-error Надо бы определиться с полом...
 				.form-main__field-select.js-option
 					label Время года:
 					ul.form-main__field-options
-						li.icon-times.icon-times_winter(data-toggle="tab")
-						li.icon-times.icon-times_spring(data-toggle="tab")
-						li.icon-times.icon-times_summer(data-toggle="tab")
-						li.icon-times.icon-times_outum(data-toggle="tab")
+						li.icon-times.icon-times_winter.js-radio(data-toggle="tab")
+						li.icon-times.icon-times_spring.js-radio(data-toggle="tab")
+						li.icon-times.icon-times_summer.js-radio(data-toggle="tab")
+						li.icon-times.icon-times_outum.js-radio(data-toggle="tab")
 					.popup-error.js-popup-error Сменить бы погодку
 				.form-main__field-wrapper.js-option
-					input#name(type="text", name="name", placeholder="Повод отдохнуть...").form-main__field-input.js-option
+					input#name(type="text", name="name", placeholder="Повод отдохнуть...").form-main__field-input
 					.popup-error.js-popup-error Может ты устал и хочешь на ручки?
-			span.btn.btn-form Вперед
+			span.btn.btn-form.js-btn-form Вперед
