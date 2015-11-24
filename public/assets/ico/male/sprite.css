@@ -1,29 +1,30 @@
-/*
-Icon classes can be used entirely standalone. They are named after their original file names.
-
-```html
-<!-- `display: block` sprite -->
-<div class="icon-home"></div>
-
-<!-- `display: inline-block` sprite -->
-<img class="icon-home" />
-```
-*/
+.icon-female-hover {
+    background-position: 0px 0px;
+    width: 25px;
+    height: 48px;
+}
 .icon-female {
-  background-image: url(assets/img/);
-  background-position: 0px 0px;
-  width: 25px;
-  height: 48px;
+    background-position: -25px 0px;
+    width: 25px;
+    height: 48px;
+}
+.icon-male-hover {
+    background-position: -50px 0px;
+    width: 21px;
+    height: 48px;
 }
 .icon-male {
-  background-image: url(assets/img/);
-  background-position: -25px 0px;
-  width: 21px;
-  height: 48px;
+    background-position: -71px 0px;
+    width: 21px;
+    height: 48px;
 }
-.icon-unmail {
-  background-image: url(assets/img/);
-  background-position: -46px 0px;
-  width: 21px;
-  height: 48px;
+.icon-unmale-hover {
+    background-position: -92px 0px;
+    width: 21px;
+    height: 48px;
+}
+.icon-unmale {
+    background-position: 0px -48px;
+    width: 21px;
+    height: 48px;
 }
