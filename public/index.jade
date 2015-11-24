@@ -29,19 +29,25 @@ block content
 				br
 				| для подбора
 			.form-main__field
-				input#name(type="text", name="name", placeholder="Ваше имя:").form-main__field-input
-				.form-main__field-select.error
+				.form-main__field-wrapper.js-option
+					input#name(type="text", name="name", placeholder="Ваше имя:").form-main__field-input.js-option
+					.popup-error.js-popup-error Будем знакомы?
+				.form-main__field-select.js-option
 					label Ваш пол:
 					ul.form-main__field-options
 						li.icon-male.icon-male_male(data-toggle="tab")
 						li.icon-male.icon-male_female(data-toggle="tab")
 						li.icon-male.icon-male_unmale(data-toggle="tab")
-				.form-main__field-select
+					.popup-error.js-popup-error Надо бы определиться с полом...
+				.form-main__field-select.js-option
 					label Время года:
 					ul.form-main__field-options
 						li.icon-times.icon-times_winter(data-toggle="tab")
 						li.icon-times.icon-times_spring(data-toggle="tab")
 						li.icon-times.icon-times_summer(data-toggle="tab")
 						li.icon-times.icon-times_outum(data-toggle="tab")
-				input#name(type="text", name="name", placeholder="Повод отдохнуть...").form-main__field-input
+					.popup-error.js-popup-error Сменить бы погодку
+				.form-main__field-wrapper.js-option
+					input#name(type="text", name="name", placeholder="Повод отдохнуть...").form-main__field-input.js-option
+					.popup-error.js-popup-error Может ты устал и хочешь на ручки?
 			span.btn.btn-form Вперед

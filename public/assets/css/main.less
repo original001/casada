@@ -113,7 +113,11 @@ a {
 		border-radius: 6px;
 		margin: 0 auto 45px;
 		box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.15);
+		&-wrapper {
+			position: relative;
+		}
 		&-input, &-select {
+			position: relative;
 			width: 100%;
 			height: 78px;
 			line-height: 78px;
@@ -164,6 +168,32 @@ a {
 	background: url(../img/letter.png) 50% no-repeat;
 	&.show {
 		bottom: 0;	
+	}
+}
+
+.popup-error {
+	position: absolute;
+	left: 100%;
+	top: 0;
+	margin-left: 15px;
+	border-radius: 5px;
+	padding: 0 20px 0 90px;
+	height: 68px;
+	color: #626262;
+	line-height: 68px;
+	white-space: nowrap;
+	font-size: 16px;
+	font-family: Verdana;
+	background: #fff data-uri('../ico/oops.png') 10px 50% no-repeat;
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.55);
+	&:before {
+		content: '';
+		position: absolute;
+		right: 100%;
+		bottom: 4px;
+		width: 13px;
+		height: 29px;
+		background: url('../ico/popup-corner.png') 0 0 no-repeat;
 	}
 }
 
