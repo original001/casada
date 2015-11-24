@@ -13,8 +13,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierAnimated</string>
 		<string>kPropertiesMenuItemIdentifierPosition</string>
+		<string>kPropertiesMenuItemIdentifierAnimated</string>
 	</array>
 	<key>documentVersion</key>
 	<string>458</string>
@@ -29,7 +29,7 @@
 	<key>guidesAreVisible</key>
 	<true/>
 	<key>lastCheckDate</key>
-	<date>2015-11-23T20:27:03Z</date>
+	<date>2015-11-24T18:03:34Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -99,7 +99,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 0}, {1513, 287}}</string>
+									<string>{{136, 0}, {1513, 240}}</string>
 									<key>identifier</key>
 									<string>container 2324</string>
 									<key>isCustomizableViewContainer</key>
@@ -112,7 +112,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {1513, 287}}</string>
+											<string>{{136, 0}, {1513, 240}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -122,7 +122,7 @@
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 288}, {1513, 730}}</string>
+									<string>{{136, 241}, {1513, 777}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -135,7 +135,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 288}, {1513, 730}}</string>
+											<string>{{136, 241}, {1513, 777}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -175,7 +175,7 @@
 		<key>keyframeTimelineHeight</key>
 		<real>119</real>
 		<key>mainWindowFrame</key>
-		<string>375 304 1170 747 0 0 1920 1057 </string>
+		<string>375 358 1170 693 0 0 1920 1057 </string>
 		<key>openTabs</key>
 		<array/>
 		<key>selectedTabIndex</key>
@@ -213,7 +213,7 @@
 	<key>mobileStatusBarStyle</key>
 	<integer>0</integer>
 	<key>oidCounter</key>
-	<integer>47</integer>
+	<integer>52</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -437,13 +437,13 @@
 						<key>timeCursors</key>
 						<dict>
 							<key>kTimelineDefaultIdentifier</key>
-							<real>14</real>
+							<real>0.0</real>
 						</dict>
 						<key>timescale</key>
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1960, 958}</string>
+					<string>{2018, 1036}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -468,7 +468,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>2</string>
 					<key>scrollViewOffset</key>
-					<string>{342, 0}</string>
+					<string>{0, 0}</string>
 				</dict>
 			</array>
 		</dict>
@@ -493,7 +493,7 @@
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>7B29DC7B-1E45-45E5-AD0E-99F1BBF5117C-2167-00000FADC491C663</string>
+			<string>1E5EDA99-5DCA-4638-9EBD-D366D127E0E2-230-00000019910A24B2</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -510,15 +510,15 @@
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
 							<string>journey</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -627,9 +627,9 @@
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1900px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -675,15 +675,15 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Height</string>
+							<string>PointerEvents</string>
 							<key>objectValue</key>
-							<string>918px</string>
+							<string>none</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundImageResourceGroupOid</string>
+							<string>Height</string>
 							<key>objectValue</key>
-							<string>6</string>
+							<string>918px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -699,9 +699,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PointerEvents</string>
+							<string>BackgroundImageResourceGroupOid</string>
 							<key>objectValue</key>
-							<string>none</string>
+							<string>6</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -747,18 +747,18 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1900px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>9</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>27px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -892,9 +892,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>27px</string>
+							<string>div</string>
 						</dict>
 					</array>
 				</dict>
@@ -904,6 +904,61 @@
 				<string>Scene Symbol</string>
 				<key>oid</key>
 				<string>2</string>
+				<key>onSceneDragActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyDownActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyPressActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyUpActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneLoadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeDownActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeLeftActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeRightActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeUpActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneTimelineCompleteActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneUnloadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
 				<key>onTopDuringSceneTransition</key>
 				<true/>
 				<key>properties</key>
@@ -979,7 +1034,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C018C176-C594-4902-BB2E-5012AE5BF26A-2167-0000102483004452</string>
+									<string>6865E721-2911-45E7-8548-6C8445850065-230-0000029A28D18E5D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1056,7 +1111,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C018C176-C594-4902-BB2E-5012AE5BF26A-2167-0000102483004452</string>
+									<string>6865E721-2911-45E7-8548-6C8445850065-230-0000029A28D18E5D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1169,7 +1224,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>C018C176-C594-4902-BB2E-5012AE5BF26A-2167-0000102483004452</string>
+									<string>6865E721-2911-45E7-8548-6C8445850065-230-0000029A28D18E5D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1266,7 +1321,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>FA2C571C-B2D9-465D-9B20-57D5290671DE-2167-00001024EB0FBF5B</string>
+									<string>72A4E9EB-146D-4858-9E93-08CB2C7A4530-230-0000029A28D65211</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1363,7 +1418,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>FA2C571C-B2D9-465D-9B20-57D5290671DE-2167-00001024EB0FBF5B</string>
+									<string>72A4E9EB-146D-4858-9E93-08CB2C7A4530-230-0000029A28D65211</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1496,7 +1551,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>FA2C571C-B2D9-465D-9B20-57D5290671DE-2167-00001024EB0FBF5B</string>
+									<string>72A4E9EB-146D-4858-9E93-08CB2C7A4530-230-0000029A28D65211</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1573,7 +1628,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>239D6523-FE17-419E-9BBA-AFBB555FE9E8-2167-00001029E4B4DB3F</string>
+									<string>FC5A2A44-945F-4FC1-A366-3FD195627597-230-0000029A28DA50ED</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1650,7 +1705,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>239D6523-FE17-419E-9BBA-AFBB555FE9E8-2167-00001029E4B4DB3F</string>
+									<string>FC5A2A44-945F-4FC1-A366-3FD195627597-230-0000029A28DA50ED</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1727,7 +1782,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>239D6523-FE17-419E-9BBA-AFBB555FE9E8-2167-00001029E4B4DB3F</string>
+									<string>FC5A2A44-945F-4FC1-A366-3FD195627597-230-0000029A28DA50ED</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1804,7 +1859,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9E373581-9B11-4E35-9676-7755EF1326C6-2167-00001042F450C752</string>
+									<string>3214DB68-8ACB-40A1-B493-A4F2F2E3438C-230-0000029A28DD6FD2</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1881,7 +1936,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9E373581-9B11-4E35-9676-7755EF1326C6-2167-00001042F450C752</string>
+									<string>3214DB68-8ACB-40A1-B493-A4F2F2E3438C-230-0000029A28DD6FD2</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1958,7 +2013,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9E373581-9B11-4E35-9676-7755EF1326C6-2167-00001042F450C752</string>
+									<string>3214DB68-8ACB-40A1-B493-A4F2F2E3438C-230-0000029A28DD6FD2</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2045,7 +2100,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>12D42FA2-93A1-49DC-A389-66F13BBA9741-2167-00001047E3000663</string>
+									<string>99760FA9-493E-4055-AB83-2AF5526EC38C-230-0000029A28E0BB6C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2132,7 +2187,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>12D42FA2-93A1-49DC-A389-66F13BBA9741-2167-00001047E3000663</string>
+									<string>99760FA9-493E-4055-AB83-2AF5526EC38C-230-0000029A28E0BB6C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2219,7 +2274,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>12D42FA2-93A1-49DC-A389-66F13BBA9741-2167-00001047E3000663</string>
+									<string>99760FA9-493E-4055-AB83-2AF5526EC38C-230-0000029A28E0BB6C</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2306,7 +2361,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>EF88EE92-E56F-4803-8657-F5DC8F4D0089-2167-0000104F12FD71DB</string>
+									<string>F5B98D2D-EF73-40DB-880D-047A5F113C80-230-0000029A28E41633</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2393,7 +2448,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>EF88EE92-E56F-4803-8657-F5DC8F4D0089-2167-0000104F12FD71DB</string>
+									<string>F5B98D2D-EF73-40DB-880D-047A5F113C80-230-0000029A28E41633</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2480,7 +2535,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>EF88EE92-E56F-4803-8657-F5DC8F4D0089-2167-0000104F12FD71DB</string>
+									<string>F5B98D2D-EF73-40DB-880D-047A5F113C80-230-0000029A28E41633</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2557,7 +2612,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>31BAE736-68D2-4108-BF14-58B9A15B267C-2167-0000105C55B2F2A8</string>
+									<string>9138D2A1-4077-42F8-B1E5-58BA5214FBED-230-0000029A28E78FCC</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2634,7 +2689,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>31BAE736-68D2-4108-BF14-58B9A15B267C-2167-0000105C55B2F2A8</string>
+									<string>9138D2A1-4077-42F8-B1E5-58BA5214FBED-230-0000029A28E78FCC</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2711,7 +2766,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>31BAE736-68D2-4108-BF14-58B9A15B267C-2167-0000105C55B2F2A8</string>
+									<string>9138D2A1-4077-42F8-B1E5-58BA5214FBED-230-0000029A28E78FCC</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2798,7 +2853,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2A9866C3-F52E-4EB3-A0E3-6D28FDF9D2FA-2167-000010803F3F2ABD</string>
+									<string>96BB190D-FF3C-4002-97CE-8BEED7EB7158-230-0000029A28EAF279</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2885,7 +2940,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2A9866C3-F52E-4EB3-A0E3-6D28FDF9D2FA-2167-000010803F3F2ABD</string>
+									<string>96BB190D-FF3C-4002-97CE-8BEED7EB7158-230-0000029A28EAF279</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2972,7 +3027,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2A9866C3-F52E-4EB3-A0E3-6D28FDF9D2FA-2167-000010803F3F2ABD</string>
+									<string>96BB190D-FF3C-4002-97CE-8BEED7EB7158-230-0000029A28EAF279</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3069,7 +3124,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>66E7890A-BB47-4BAD-BF16-739768B46364-2167-0000108A0DA919B5</string>
+									<string>94E75D44-E146-4E30-AF70-6182627DA6B3-230-0000029A28EE7B4A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3166,7 +3221,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>66E7890A-BB47-4BAD-BF16-739768B46364-2167-0000108A0DA919B5</string>
+									<string>94E75D44-E146-4E30-AF70-6182627DA6B3-230-0000029A28EE7B4A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3263,7 +3318,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>66E7890A-BB47-4BAD-BF16-739768B46364-2167-0000108A0DA919B5</string>
+									<string>94E75D44-E146-4E30-AF70-6182627DA6B3-230-0000029A28EE7B4A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3340,7 +3395,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F14608A6-3DCF-430E-B66F-FFAF86003214-2167-000010A5731FBB2F</string>
+									<string>107B0A20-309F-48DA-8068-82B68DF492E8-230-0000029A28F1E61B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3417,7 +3472,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F14608A6-3DCF-430E-B66F-FFAF86003214-2167-000010A5731FBB2F</string>
+									<string>107B0A20-309F-48DA-8068-82B68DF492E8-230-0000029A28F1E61B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3494,7 +3549,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F14608A6-3DCF-430E-B66F-FFAF86003214-2167-000010A5731FBB2F</string>
+									<string>107B0A20-309F-48DA-8068-82B68DF492E8-230-0000029A28F1E61B</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3591,7 +3646,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4CFA3D00-E542-4BA0-90ED-097140E48492-2167-0000110A3983EB80</string>
+									<string>2D7A2FFE-E8D8-4354-B924-E90B68F6E960-230-0000029A28F514CF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3688,7 +3743,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4CFA3D00-E542-4BA0-90ED-097140E48492-2167-0000110A3983EB80</string>
+									<string>2D7A2FFE-E8D8-4354-B924-E90B68F6E960-230-0000029A28F514CF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3785,7 +3840,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>4CFA3D00-E542-4BA0-90ED-097140E48492-2167-0000110A3983EB80</string>
+									<string>2D7A2FFE-E8D8-4354-B924-E90B68F6E960-230-0000029A28F514CF</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3902,7 +3957,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>17BB0C86-D733-4BC2-A6B9-FD772B60A6FE-2167-0000111407E98B78</string>
+									<string>ACFFAEF7-2AB3-42C9-94E1-8CD3FDCB8E4B-230-0000029A28F86A08</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4019,7 +4074,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>17BB0C86-D733-4BC2-A6B9-FD772B60A6FE-2167-0000111407E98B78</string>
+									<string>ACFFAEF7-2AB3-42C9-94E1-8CD3FDCB8E4B-230-0000029A28F86A08</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4136,7 +4191,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>17BB0C86-D733-4BC2-A6B9-FD772B60A6FE-2167-0000111407E98B78</string>
+									<string>ACFFAEF7-2AB3-42C9-94E1-8CD3FDCB8E4B-230-0000029A28F86A08</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4223,7 +4278,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DFAD0987-4DA3-4C77-A8CA-250062387928-2167-00001120048EB4A4</string>
+									<string>EA3F60C7-C575-4EE8-AF37-C5060729D255-230-0000029A28FBF222</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4310,7 +4365,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DFAD0987-4DA3-4C77-A8CA-250062387928-2167-00001120048EB4A4</string>
+									<string>EA3F60C7-C575-4EE8-AF37-C5060729D255-230-0000029A28FBF222</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4397,7 +4452,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DFAD0987-4DA3-4C77-A8CA-250062387928-2167-00001120048EB4A4</string>
+									<string>EA3F60C7-C575-4EE8-AF37-C5060729D255-230-0000029A28FBF222</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4514,7 +4569,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DFBCC917-D69A-415F-9580-424A1DA60DCF-2167-0000113AD132A189</string>
+									<string>FCBF495F-CBAD-4161-B5FC-BBEBF0D21D3F-230-0000029A28FF308D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4631,7 +4686,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DFBCC917-D69A-415F-9580-424A1DA60DCF-2167-0000113AD132A189</string>
+									<string>FCBF495F-CBAD-4161-B5FC-BBEBF0D21D3F-230-0000029A28FF308D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4748,7 +4803,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>DFBCC917-D69A-415F-9580-424A1DA60DCF-2167-0000113AD132A189</string>
+									<string>FCBF495F-CBAD-4161-B5FC-BBEBF0D21D3F-230-0000029A28FF308D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4808,7 +4863,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6A0FEE2C-F0AF-48EF-85AB-AC77B448DAFE-2167-0000114AB8FDCB6D</string>
+									<string>91534495-510D-480A-B61A-B9842660E65E-230-0000029A2902AFDD</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4868,7 +4923,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6A0FEE2C-F0AF-48EF-85AB-AC77B448DAFE-2167-0000114AB8FDCB6D</string>
+									<string>91534495-510D-480A-B61A-B9842660E65E-230-0000029A2902AFDD</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4928,7 +4983,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6A0FEE2C-F0AF-48EF-85AB-AC77B448DAFE-2167-0000114AB8FDCB6D</string>
+									<string>91534495-510D-480A-B61A-B9842660E65E-230-0000029A2902AFDD</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -6327,6 +6382,6 @@
 	<key>webAppCapable</key>
 	<integer>0</integer>
 	<key>zoomFactor</key>
-	<real>1</real>
+	<real>0.75</real>
 </dict>
 </plist>

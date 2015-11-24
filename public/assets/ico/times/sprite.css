@@ -1,0 +1,59 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-outum-hover {
+  background-image: url(assets/img/);
+  background-position: -68px 0px;
+  width: 27px;
+  height: 33px;
+}
+.icon-outum {
+  background-image: url(assets/img/);
+  background-position: -68px -33px;
+  width: 27px;
+  height: 33px;
+}
+.icon-spring-hover {
+  background-image: url(assets/img/);
+  background-position: -95px 0px;
+  width: 26px;
+  height: 34px;
+}
+.icon-spring {
+  background-image: url(assets/img/);
+  background-position: 0px -66px;
+  width: 26px;
+  height: 34px;
+}
+.icon-summer-hover {
+  background-image: url(assets/img/);
+  background-position: 0px -33px;
+  width: 33px;
+  height: 33px;
+}
+.icon-summer {
+  background-image: url(assets/img/);
+  background-position: -33px -33px;
+  width: 33px;
+  height: 33px;
+}
+.icon-winter-hover {
+  background-image: url(assets/img/);
+  background-position: 0px 0px;
+  width: 34px;
+  height: 33px;
+}
+.icon-winter {
+  background-image: url(assets/img/);
+  background-position: -34px 0px;
+  width: 34px;
+  height: 33px;
+}

@@ -12,8 +12,26 @@ block css
 block js
 	//- script(src="assets/plugins/slick-carousel/slick/slick.min.js")
 	//- script(src="assets/plugins/magnific-popup/dist/jquery.magnific-popup.min.js")
-	//- script(src="assets/plugins/bootstrap/js/tab.js")
+	script(src="assets/plugins/bootstrap/js/tab.js")
 	//- script(src="assets/plugins/fuelux/js/radio.js")
 
 
 block content
+	span.btn.js-link
+		i.icon.icon_chair
+		| Найти
+
+	.b-form
+		.letter.js-letter
+		.form-main.js-form-main.show
+			.form-main__close.js-form-close
+			h2.form-main__h2 Введите данные
+				br
+				| для подбора
+			.form-main__field
+				input#name(type="text", name="name", placeholder="Ваше имя:").form-main__field-input
+				.form-main__field-select.error
+					label Ваш пол:
+				.form-main__field-select
+					label Время года:
+				input#name(type="text", name="name", placeholder="Повод отдохнуть...").form-main__field-input

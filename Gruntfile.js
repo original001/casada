@@ -185,12 +185,12 @@ module.exports = function(grunt) {
 		// ===================================
 		sprite: {
 			main: {
-				src: srcRoot + path + 'ico/folderName/*.png',
-				dest: srcRoot + path + 'img/folderName.png',
+				src: srcRoot + path + 'ico/times/*.png',
+				dest: srcRoot + path + 'img/times.png',
 				imgPath: path + 'img/',
 				// algorithm: 'top-down',
 				cssFormat: 'css',
-				destCss: srcRoot + path + 'ico/folderName/sprite.css'
+				destCss: srcRoot + path + 'ico/times/sprite.css'
 			}
 		},
 		// brew install batik fontforge ttfautohint ttf2eot
