@@ -1,7 +1,11 @@
 $ ->
+	routing = ['africa','kalifornia']
+
 	$ 'body'
 		.on 'load.loader', ->
-			console.log('success')
+			random = Math.floor(Math.random() * routing.length)
+
+			window.location.href = "place_#{routing[random]}.html"
 
 	$ '.js-link'
 		.click (e) ->

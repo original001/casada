@@ -16,54 +16,60 @@ block js
 	//- script(src="assets/plugins/fuelux/js/radio.js")
 
 
-block content
-	.b-map.js-map
-		#map_hype_container(style="margin:auto;position:relative;width:1012px;height:800px;overflow:hidden;" aria-live="polite")
-			script(type="text/javascript" charset="utf-8" src="assets/js/map.hyperesources/map_hype_generated_script.js")
-		span.btn.btn-main.js-link
-			i.icon.icon_chair
-			| Найти
+block page
+	#page.page.page_main
+		.main.clearfix
+			// Map
+			.b-map.js-map
+				#map_hype_container(style="margin:auto;position:relative;width:1012px;height:800px;overflow:hidden;" aria-live="polite")
+					script(type="text/javascript" charset="utf-8" src="assets/js/map.hyperesources/map_hype_generated_script.js")
+				span.btn.btn-main.js-link
+					i.icon.icon_chair
+					| Найти
 
-	.b-form
-		.letter.js-letter
-		.form-main.js-form-main
-			.form-main__close.js-form-close
-			h2.form-main__h2 Введите данные
-				br
-				| для подбора
-			.form-main__field
-				.form-main__field-wrapper.js-option
-					input#name(type="text", name="name", placeholder="Ваше имя:").form-main__field-input
-					.popup-error.js-popup-error Будем знакомы?
-				.form-main__field-select.js-option
-					label Ваш пол:
-					ul.form-main__field-options
-						li.icon-male.icon-male_male.js-radio(data-toggle="tab")
-						li.icon-male.icon-male_female.js-radio(data-toggle="tab")
-						li.icon-male.icon-male_unmale.js-radio(data-toggle="tab")
-					.popup-error.js-popup-error Надо бы определиться с полом...
-				.form-main__field-select.js-option
-					label Время года:
-					ul.form-main__field-options
-						li.icon-times.icon-times_winter.js-radio(data-toggle="tab")
-						li.icon-times.icon-times_spring.js-radio(data-toggle="tab")
-						li.icon-times.icon-times_summer.js-radio(data-toggle="tab")
-						li.icon-times.icon-times_outum.js-radio(data-toggle="tab")
-					.popup-error.js-popup-error Сменить бы погодку
-				.form-main__field-wrapper.js-option
-					input#name(type="text", name="name", placeholder="Повод отдохнуть...").form-main__field-input
-					.popup-error.js-popup-error Может ты устал и хочешь на ручки?
-			span.btn.btn-form.js-btn-form Вперед
+			// Form
+			.b-form
+				.letter.js-letter
+				.form-main.js-form-main
+					.form-main__close.js-form-close
+					h2.form-main__h2 Введите данные
+						br
+						| для подбора
+					.form-main__field
+						.form-main__field-wrapper.js-option
+							input#name(type="text", name="name", placeholder="Ваше имя:").form-main__field-input
+							.popup-error.js-popup-error Будем знакомы?
+						.form-main__field-select.js-option
+							label Ваш пол:
+							ul.form-main__field-options
+								li.icon-male.icon-male_male.js-radio(data-toggle="tab")
+								li.icon-male.icon-male_female.js-radio(data-toggle="tab")
+								li.icon-male.icon-male_unmale.js-radio(data-toggle="tab")
+							.popup-error.js-popup-error Надо бы определиться с полом...
+						.form-main__field-select.js-option
+							label Время года:
+							ul.form-main__field-options
+								li.icon-times.icon-times_winter.js-radio(data-toggle="tab")
+								li.icon-times.icon-times_spring.js-radio(data-toggle="tab")
+								li.icon-times.icon-times_summer.js-radio(data-toggle="tab")
+								li.icon-times.icon-times_outum.js-radio(data-toggle="tab")
+							.popup-error.js-popup-error Сменить бы погодку
+						.form-main__field-wrapper.js-option
+							input#name(type="text", name="name", placeholder="Повод отдохнуть...").form-main__field-input
+							.popup-error.js-popup-error Может ты устал и хочешь на ручки?
+					span.btn.btn-form.js-btn-form Вперед
 
-	.b-loading.js-loading
-		style.
-			.HYPE_scene {
-				background: none !important;
-			}
-		#loader_hype_container(style="margin:auto;position:relative;width:600px;height:400px;overflow:hidden;" aria-live="polite")
-			script(type="text/javascript" charset="utf-8" src="assets/js/loader.hyperesources/loader_hype_generated_script.js")
-		.loading
-			.loading__header Минуточку, Василий!
-			.loading__text Мы подбираем для вас
-				br
-				| идеальное место для отдыха...
+			// Loader
+
+			.b-loading.js-loading
+				style.
+					.HYPE_scene {
+						background: none !important;
+					}
+				#loader_hype_container(style="margin:auto;position:relative;width:600px;height:400px;overflow:hidden;" aria-live="polite")
+					script(type="text/javascript" charset="utf-8" src="assets/js/loader.hyperesources/loader_hype_generated_script.js")
+				.loading
+					.loading__header Минуточку, Василий!
+					.loading__text Мы подбираем для вас
+						br
+						| идеальное место для отдыха...

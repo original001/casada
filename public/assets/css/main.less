@@ -31,10 +31,13 @@ a {
 .page {
 	position: relative;
 	min-height: 100%;
-	background: url('../img/bg-main.jpg') 50% no-repeat;
+	background:  50% no-repeat;
 	background-size: auto 100%;
 	transition: background 1s;
 	overflow: hidden;
+	&_main {
+		background-image: url('../img/bg-main.jpg');	
+	}
 	&.form {
 		background-image: url('../img/bg-form.jpg');
 	}
@@ -231,6 +234,70 @@ a {
 	&__text {
 		font-size: 18px;
 	}
+}
+
+.b-land {
+	position: relative;
+	margin-bottom: 75px;
+	&__caption {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		padding-top: 190px;
+		text-align: center;
+		color: #fff;
+	}
+	&__icon {
+		width: 162px;
+		height: 159px;
+		display: inline-block;
+		background: data-uri('../ico/big-chair.png') 0 0 no-repeat;
+		margin-bottom: 50px;
+	}
+	&__header {
+		.ff-rupster;
+		font-size: 130px;
+		margin-bottom: 60px;
+	}
+	&__text {
+		font-weight: bold;
+		font-size: 22px;
+		width: 780px;
+		margin: 0 auto;
+	}
+}
+
+.b-path {
+	text-align: center;
+	&__img {
+		margin-bottom: 50px;
+	}
+	&__header {
+		font-size: 50px;
+		.ff-rupster;
+		margin-bottom: 70px;
+	}
+	&__or {
+		font-size: 50px;
+		margin-bottom: 10px;
+		.ff-rupster;
+	}
+	&__button {
+		margin-bottom: 36px;
+	}
+}
+
+.sign {
+	position: absolute;
+	.ablock();
+	bottom: -3px;
+	right: 0;
+	padding: 6px 20px;
+	width: 285px;
+	height: 57px;
+	font-size: 22px;
+	color: #fff;
+	background: url(../img/sign.png) 0 0 no-repeat;
 }
 
 //==================================
