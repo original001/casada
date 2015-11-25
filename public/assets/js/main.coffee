@@ -5,7 +5,6 @@ $ ->
 
 	$ '.js-link'
 		.click (e) ->
-			$(this).fadeOut(400)
 			$ '#page'
 				.addClass 'form'
 	
@@ -14,7 +13,6 @@ $ ->
 
 	$ '.js-form-close'
 		.click (e) ->
-			$('.js-link').fadeIn(400)
 			$ '#page'
 				.removeClass 'form'
 	
@@ -23,7 +21,10 @@ $ ->
 
 	$ '.js-btn-form'
 		.click (e) ->
-			if !validate()
+			if validate()
+				$ '.js-link, .js-map'
+					.fadeOut(400);
+
 				$ '.js-form-main, .js-letter'
 					.removeClass 'show'
 

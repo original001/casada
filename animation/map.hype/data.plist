@@ -13,8 +13,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierPosition</string>
 		<string>kPropertiesMenuItemIdentifierAnimated</string>
+		<string>kPropertiesMenuItemIdentifierPosition</string>
 	</array>
 	<key>documentVersion</key>
 	<string>458</string>
@@ -29,7 +29,7 @@
 	<key>guidesAreVisible</key>
 	<true/>
 	<key>lastCheckDate</key>
-	<date>2015-11-24T18:03:34Z</date>
+	<date>2015-11-25T17:43:18Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -175,7 +175,7 @@
 		<key>keyframeTimelineHeight</key>
 		<real>119</real>
 		<key>mainWindowFrame</key>
-		<string>375 358 1170 693 0 0 1920 1057 </string>
+		<string>375 304 1170 747 0 0 1920 1057 </string>
 		<key>openTabs</key>
 		<array/>
 		<key>selectedTabIndex</key>
@@ -213,7 +213,7 @@
 	<key>mobileStatusBarStyle</key>
 	<integer>0</integer>
 	<key>oidCounter</key>
-	<integer>52</integer>
+	<integer>53</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -436,6 +436,8 @@
 						<array/>
 						<key>timeCursors</key>
 						<dict>
+							<key>53</key>
+							<real>10</real>
 							<key>kTimelineDefaultIdentifier</key>
 							<real>0.0</real>
 						</dict>
@@ -443,13 +445,13 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{2018, 1036}</string>
+					<string>{1499, 967}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
-						<string>#FFFFFF</string>
+						<string>#424242</string>
 						<key>breakpointWidth</key>
-						<real>1920</real>
+						<real>1012</real>
 						<key>name</key>
 						<string>Untitled Layout</string>
 						<key>perspective</key>
@@ -457,7 +459,7 @@
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{1920, 900}</string>
+						<string>{1012, 800}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -468,7 +470,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>2</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{1, 205}</string>
 				</dict>
 			</array>
 		</dict>
@@ -493,15 +495,17 @@
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>1E5EDA99-5DCA-4638-9EBD-D366D127E0E2-230-00000019910A24B2</string>
+			<string>EF5C0872-1427-4C60-A66F-CF3B1B8EA544-699-000001733C2DBBDE</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>5</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
 				<false/>
 				<key>currentTimelineIdentifier</key>
-				<string>kTimelineDefaultIdentifier</string>
+				<string>53</string>
 				<key>customBehaviors</key>
 				<array/>
 				<key>elements</key>
@@ -536,7 +540,7 @@
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>461px</string>
+							<string>7px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -578,7 +582,7 @@
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>84px</string>
+							<string>49px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -623,143 +627,14 @@
 							<string>Image</string>
 						</dict>
 					</array>
-					<key>7</key>
+					<key>9</key>
 					<array>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalWidth</string>
-							<key>objectValue</key>
-							<string>1900px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ConstrainProportions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Image</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundRepeat</string>
-							<key>objectValue</key>
-							<string>no-repeat</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PointerEvents</string>
-							<key>objectValue</key>
-							<string>none</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>918px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>SizeRatio</string>
-							<key>objectValue</key>
-							<string>2.09251</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundImageResourceGroupOid</string>
-							<key>objectValue</key>
-							<string>6</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>1920px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Locked</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundSize</string>
-							<key>objectValue</key>
-							<string>100% 100%</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>bg-main</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalHeight</string>
-							<key>objectValue</key>
-							<string>908px</string>
-						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>TagName</string>
 							<key>objectValue</key>
 							<string>div</string>
 						</dict>
-					</array>
-					<key>9</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>OriginalWidth</string>
-							<key>objectValue</key>
-							<string>27px</string>
-						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
@@ -786,7 +661,7 @@
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>764.5px</string>
+							<string>729px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -822,7 +697,7 @@
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>811.5px</string>
+							<string>357px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -892,9 +767,9 @@
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>27px</string>
 						</dict>
 					</array>
 				</dict>
@@ -927,7 +802,18 @@
 				<key>onSceneLoadActionHandler</key>
 				<dict>
 					<key>actions</key>
-					<array/>
+					<array>
+						<dict>
+							<key>playInReverse</key>
+							<false/>
+							<key>symbolOid</key>
+							<string>2</string>
+							<key>timelineIdentifier</key>
+							<string>53</string>
+							<key>type</key>
+							<integer>3</integer>
+						</dict>
+					</array>
 				</dict>
 				<key>onSceneSwipeDownActionHandler</key>
 				<dict>
@@ -980,16 +866,32 @@
 				<array>
 					<dict>
 						<key>animations</key>
+						<array/>
+						<key>firstKeyframeIsRelative</key>
+						<false/>
+						<key>framesPerSecond</key>
+						<integer>30</integer>
+						<key>hidden</key>
+						<false/>
+						<key>identifier</key>
+						<string>kTimelineDefaultIdentifier</string>
+						<key>name</key>
+						<string>Main Timeline</string>
+						<key>userDefinedDuration</key>
+						<real>0.0</real>
+					</dict>
+					<dict>
+						<key>animations</key>
 						<array>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.69999998807907104</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>670.5px</string>
+									<string>635.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -1005,23 +907,23 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{777, 764}</string>
+												<string>{323, 729}</string>
 												<key>endPoint</key>
-												<string>{731, 741}</string>
+												<string>{277, 706}</string>
 												<key>startControlPoint</key>
-												<string>{825, 778}</string>
+												<string>{371, 743}</string>
 												<key>startPoint</key>
-												<string>{825, 778}</string>
+												<string>{371, 743}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{636, 684}</string>
+												<string>{182, 649}</string>
 												<key>endPoint</key>
-												<string>{636, 684}</string>
+												<string>{182, 649}</string>
 												<key>startControlPoint</key>
-												<string>{682, 717}</string>
+												<string>{228, 682}</string>
 												<key>startPoint</key>
-												<string>{731, 741}</string>
+												<string>{277, 706}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -1034,7 +936,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6865E721-2911-45E7-8548-6C8445850065-230-0000029A28D18E5D</string>
+									<string>A52A1749-061B-4F91-A6C8-59D1174E827A-699-000001AD971A8F8E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1045,7 +947,7 @@
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>764.5px</string>
+									<string>729.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -1060,13 +962,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.69999998807907104</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>622.5px</string>
+									<string>168.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -1082,23 +984,23 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{777, 764}</string>
+												<string>{323, 729}</string>
 												<key>endPoint</key>
-												<string>{731, 741}</string>
+												<string>{277, 706}</string>
 												<key>startControlPoint</key>
-												<string>{825, 778}</string>
+												<string>{371, 743}</string>
 												<key>startPoint</key>
-												<string>{825, 778}</string>
+												<string>{371, 743}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{636, 684}</string>
+												<string>{182, 649}</string>
 												<key>endPoint</key>
-												<string>{636, 684}</string>
+												<string>{182, 649}</string>
 												<key>startControlPoint</key>
-												<string>{682, 717}</string>
+												<string>{228, 682}</string>
 												<key>startPoint</key>
-												<string>{731, 741}</string>
+												<string>{277, 706}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -1111,7 +1013,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6865E721-2911-45E7-8548-6C8445850065-230-0000029A28D18E5D</string>
+									<string>A52A1749-061B-4F91-A6C8-59D1174E827A-699-000001AD971A8F8E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1122,7 +1024,7 @@
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>811.5px</string>
+									<string>357.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -1173,7 +1075,7 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.69999998807907104</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -1195,23 +1097,23 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{777, 764}</string>
+												<string>{323, 729}</string>
 												<key>endPoint</key>
-												<string>{731, 741}</string>
+												<string>{277, 706}</string>
 												<key>startControlPoint</key>
-												<string>{825, 778}</string>
+												<string>{371, 743}</string>
 												<key>startPoint</key>
-												<string>{825, 778}</string>
+												<string>{371, 743}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{636, 684}</string>
+												<string>{182, 649}</string>
 												<key>endPoint</key>
-												<string>{636, 684}</string>
+												<string>{182, 649}</string>
 												<key>startControlPoint</key>
-												<string>{682, 717}</string>
+												<string>{228, 682}</string>
 												<key>startPoint</key>
-												<string>{731, 741}</string>
+												<string>{277, 706}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -1224,7 +1126,7 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>6865E721-2911-45E7-8548-6C8445850065-230-0000029A28D18E5D</string>
+									<string>A52A1749-061B-4F91-A6C8-59D1174E827A-699-000001AD971A8F8E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1250,110 +1152,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>623.5px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>motionPath</key>
-								<dict>
-									<key>bezierPath</key>
-									<dict>
-										<key>allowEndPointModification</key>
-										<true/>
-										<key>bezierCurves</key>
-										<array>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{592, 665}</string>
-												<key>endPoint</key>
-												<string>{603, 622}</string>
-												<key>startControlPoint</key>
-												<string>{636, 684}</string>
-												<key>startPoint</key>
-												<string>{636, 684}</string>
-											</dict>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{621, 582}</string>
-												<key>endPoint</key>
-												<string>{658, 588}</string>
-												<key>startControlPoint</key>
-												<string>{607, 607}</string>
-												<key>startPoint</key>
-												<string>{603, 622}</string>
-											</dict>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{697, 615}</string>
-												<key>endPoint</key>
-												<string>{694, 643}</string>
-												<key>startControlPoint</key>
-												<string>{682, 592}</string>
-												<key>startPoint</key>
-												<string>{658, 588}</string>
-											</dict>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{637, 683}</string>
-												<key>endPoint</key>
-												<string>{637, 683}</string>
-												<key>startControlPoint</key>
-												<string>{689, 693}</string>
-												<key>startPoint</key>
-												<string>{694, 643}</string>
-											</dict>
-										</array>
-										<key>interpolationPointCount</key>
-										<real>100</real>
-										<key>showAllControlPoints</key>
-										<false/>
-										<key>useIntegerValues</key>
-										<true/>
-										<key>useSmallStyle</key>
-										<false/>
-									</dict>
-									<key>oid</key>
-									<string>72A4E9EB-146D-4858-9E93-08CB2C7A4530-230-0000029A28D65211</string>
-								</dict>
-								<key>referenceOid</key>
-								<string>9</string>
-								<key>startTime</key>
-								<real>1</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>622.5px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>5B09734C-EABF-4DEC-ADE7-48BD04CF7F19-2167-000010236A9D2F2C</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1</real>
+								<real>0.73333340883255005</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>669.5px</string>
+									<string>634.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -1369,43 +1174,43 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{592, 665}</string>
+												<string>{138, 630}</string>
 												<key>endPoint</key>
-												<string>{603, 622}</string>
+												<string>{149, 587}</string>
 												<key>startControlPoint</key>
-												<string>{636, 684}</string>
+												<string>{182, 649}</string>
 												<key>startPoint</key>
-												<string>{636, 684}</string>
+												<string>{182, 649}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{621, 582}</string>
+												<string>{167, 547}</string>
 												<key>endPoint</key>
-												<string>{658, 588}</string>
+												<string>{204, 553}</string>
 												<key>startControlPoint</key>
-												<string>{607, 607}</string>
+												<string>{153, 572}</string>
 												<key>startPoint</key>
-												<string>{603, 622}</string>
+												<string>{149, 587}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{697, 615}</string>
+												<string>{243, 580}</string>
 												<key>endPoint</key>
-												<string>{694, 643}</string>
+												<string>{240, 608}</string>
 												<key>startControlPoint</key>
-												<string>{682, 592}</string>
+												<string>{228, 557}</string>
 												<key>startPoint</key>
-												<string>{658, 588}</string>
+												<string>{204, 553}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{637, 683}</string>
+												<string>{183, 648}</string>
 												<key>endPoint</key>
-												<string>{637, 683}</string>
+												<string>{183, 648}</string>
 												<key>startControlPoint</key>
-												<string>{689, 693}</string>
+												<string>{235, 658}</string>
 												<key>startPoint</key>
-												<string>{694, 643}</string>
+												<string>{240, 608}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -1418,18 +1223,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>72A4E9EB-146D-4858-9E93-08CB2C7A4530-230-0000029A28D65211</string>
+									<string>B13F357F-3437-4F74-A369-4BA32339561A-699-000001AD971DDE16</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>1</real>
+								<real>0.69999998807907104</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>670.5px</string>
+									<string>635.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -1444,28 +1249,89 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.0</real>
+								<real>0.73333340883255005</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
-									<string>MotionPathRotation</string>
+									<string>Left</string>
 									<key>objectValue</key>
-									<string>203deg</string>
+									<string>169.5px</string>
 								</dict>
 								<key>identifier</key>
-								<string>MotionPathRotation</string>
+								<string>Left</string>
 								<key>isRelative</key>
 								<false/>
+								<key>motionPath</key>
+								<dict>
+									<key>bezierPath</key>
+									<dict>
+										<key>allowEndPointModification</key>
+										<true/>
+										<key>bezierCurves</key>
+										<array>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{138, 630}</string>
+												<key>endPoint</key>
+												<string>{149, 587}</string>
+												<key>startControlPoint</key>
+												<string>{182, 649}</string>
+												<key>startPoint</key>
+												<string>{182, 649}</string>
+											</dict>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{167, 547}</string>
+												<key>endPoint</key>
+												<string>{204, 553}</string>
+												<key>startControlPoint</key>
+												<string>{153, 572}</string>
+												<key>startPoint</key>
+												<string>{149, 587}</string>
+											</dict>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{243, 580}</string>
+												<key>endPoint</key>
+												<string>{240, 608}</string>
+												<key>startControlPoint</key>
+												<string>{228, 557}</string>
+												<key>startPoint</key>
+												<string>{204, 553}</string>
+											</dict>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{183, 648}</string>
+												<key>endPoint</key>
+												<string>{183, 648}</string>
+												<key>startControlPoint</key>
+												<string>{235, 658}</string>
+												<key>startPoint</key>
+												<string>{240, 608}</string>
+											</dict>
+										</array>
+										<key>interpolationPointCount</key>
+										<real>100</real>
+										<key>showAllControlPoints</key>
+										<false/>
+										<key>useIntegerValues</key>
+										<true/>
+										<key>useSmallStyle</key>
+										<false/>
+									</dict>
+									<key>oid</key>
+									<string>B13F357F-3437-4F74-A369-4BA32339561A-699-000001AD971DDE16</string>
+								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>1</real>
+								<real>0.69999998807907104</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
-									<string>MotionPathRotation</string>
+									<string>Left</string>
 									<key>objectValue</key>
-									<string>0deg</string>
+									<string>168.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -1474,20 +1340,13 @@
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>D32EA05F-5F15-4AC5-996A-F8F10C2566A7-2167-00001024EAC41C33</string>
+								<string>5B09734C-EABF-4DEC-ADE7-48BD04CF7F19-2167-000010236A9D2F2C</string>
 								<key>zIndex</key>
-								<integer>3</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>MotionPathRotation</string>
-									<key>objectValue</key>
-									<string>190deg</string>
-								</dict>
+								<real>0.0</real>
 								<key>identifier</key>
 								<string>MotionPathRotation</string>
 								<key>isRelative</key>
@@ -1502,43 +1361,43 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{592, 665}</string>
+												<string>{138, 630}</string>
 												<key>endPoint</key>
-												<string>{603, 622}</string>
+												<string>{149, 587}</string>
 												<key>startControlPoint</key>
-												<string>{636, 684}</string>
+												<string>{182, 649}</string>
 												<key>startPoint</key>
-												<string>{636, 684}</string>
+												<string>{182, 649}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{621, 582}</string>
+												<string>{167, 547}</string>
 												<key>endPoint</key>
-												<string>{658, 588}</string>
+												<string>{204, 553}</string>
 												<key>startControlPoint</key>
-												<string>{607, 607}</string>
+												<string>{153, 572}</string>
 												<key>startPoint</key>
-												<string>{603, 622}</string>
+												<string>{149, 587}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{697, 615}</string>
+												<string>{243, 580}</string>
 												<key>endPoint</key>
-												<string>{694, 643}</string>
+												<string>{240, 608}</string>
 												<key>startControlPoint</key>
-												<string>{682, 592}</string>
+												<string>{228, 557}</string>
 												<key>startPoint</key>
-												<string>{658, 588}</string>
+												<string>{204, 553}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{637, 683}</string>
+												<string>{183, 648}</string>
 												<key>endPoint</key>
-												<string>{637, 683}</string>
+												<string>{183, 648}</string>
 												<key>startControlPoint</key>
-												<string>{689, 693}</string>
+												<string>{235, 658}</string>
 												<key>startPoint</key>
-												<string>{694, 643}</string>
+												<string>{240, 608}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -1551,12 +1410,12 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>72A4E9EB-146D-4858-9E93-08CB2C7A4530-230-0000029A28D65211</string>
+									<string>B13F357F-3437-4F74-A369-4BA32339561A-699-000001AD971DDE16</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>1</real>
+								<real>0.69999998807907104</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -1573,73 +1432,32 @@
 								<key>uuid</key>
 								<string>90C0AA04-F5FC-41DE-AAFA-4557AC556B1F-2167-00001024EB0E4CB0</string>
 								<key>zIndex</key>
-								<integer>4</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.96666669845581055</real>
+								<real>0.73333340883255005</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
-									<string>Left</string>
+									<string>MotionPathRotation</string>
 									<key>objectValue</key>
-									<string>531.5px</string>
+									<string>164deg</string>
 								</dict>
 								<key>identifier</key>
-								<string>Left</string>
+								<string>MotionPathRotation</string>
 								<key>isRelative</key>
 								<false/>
-								<key>motionPath</key>
-								<dict>
-									<key>bezierPath</key>
-									<dict>
-										<key>allowEndPointModification</key>
-										<true/>
-										<key>bezierCurves</key>
-										<array>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{557, 705}</string>
-												<key>endPoint</key>
-												<string>{527, 642}</string>
-												<key>startControlPoint</key>
-												<string>{637, 683}</string>
-												<key>startPoint</key>
-												<string>{637, 683}</string>
-											</dict>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{545, 525}</string>
-												<key>endPoint</key>
-												<string>{545, 525}</string>
-												<key>startControlPoint</key>
-												<string>{496, 576}</string>
-												<key>startPoint</key>
-												<string>{527, 642}</string>
-											</dict>
-										</array>
-										<key>interpolationPointCount</key>
-										<real>100</real>
-										<key>showAllControlPoints</key>
-										<false/>
-										<key>useIntegerValues</key>
-										<true/>
-										<key>useSmallStyle</key>
-										<false/>
-									</dict>
-									<key>oid</key>
-									<string>FC5A2A44-945F-4FC1-A366-3FD195627597-230-0000029A28DA50ED</string>
-								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>2</real>
+								<real>0.69999998807907104</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
-									<string>Left</string>
+									<string>MotionPathRotation</string>
 									<key>objectValue</key>
-									<string>623.5px</string>
+									<string>0deg</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -1648,19 +1466,19 @@
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>89DCEF7B-6060-4A32-8A96-D31978534236-2167-00001029E4B582EE</string>
+								<string>D32EA05F-5F15-4AC5-996A-F8F10C2566A7-2167-00001024EAC41C33</string>
 								<key>zIndex</key>
-								<integer>3</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.96666669845581055</real>
+								<real>0.70000004768371582</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>511.5px</string>
+									<string>476.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -1676,23 +1494,23 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{557, 705}</string>
+												<string>{103, 670}</string>
 												<key>endPoint</key>
-												<string>{527, 642}</string>
+												<string>{73, 607}</string>
 												<key>startControlPoint</key>
-												<string>{637, 683}</string>
+												<string>{183, 648}</string>
 												<key>startPoint</key>
-												<string>{637, 683}</string>
+												<string>{183, 648}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{545, 525}</string>
+												<string>{91, 490}</string>
 												<key>endPoint</key>
-												<string>{545, 525}</string>
+												<string>{91, 490}</string>
 												<key>startControlPoint</key>
-												<string>{496, 576}</string>
+												<string>{42, 541}</string>
 												<key>startPoint</key>
-												<string>{527, 642}</string>
+												<string>{73, 607}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -1705,18 +1523,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>FC5A2A44-945F-4FC1-A366-3FD195627597-230-0000029A28DA50ED</string>
+									<string>C10F7347-30BB-4DC0-8325-D7349E762979-699-000001AD9720ED9D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>2</real>
+								<real>1.4333333969116211</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>669.5px</string>
+									<string>634.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -1731,7 +1549,84 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.96666669845581055</real>
+								<real>0.70000004768371582</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>77.5px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>motionPath</key>
+								<dict>
+									<key>bezierPath</key>
+									<dict>
+										<key>allowEndPointModification</key>
+										<true/>
+										<key>bezierCurves</key>
+										<array>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{103, 670}</string>
+												<key>endPoint</key>
+												<string>{73, 607}</string>
+												<key>startControlPoint</key>
+												<string>{183, 648}</string>
+												<key>startPoint</key>
+												<string>{183, 648}</string>
+											</dict>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{91, 490}</string>
+												<key>endPoint</key>
+												<string>{91, 490}</string>
+												<key>startControlPoint</key>
+												<string>{42, 541}</string>
+												<key>startPoint</key>
+												<string>{73, 607}</string>
+											</dict>
+										</array>
+										<key>interpolationPointCount</key>
+										<real>100</real>
+										<key>showAllControlPoints</key>
+										<false/>
+										<key>useIntegerValues</key>
+										<true/>
+										<key>useSmallStyle</key>
+										<false/>
+									</dict>
+									<key>oid</key>
+									<string>C10F7347-30BB-4DC0-8325-D7349E762979-699-000001AD9720ED9D</string>
+								</dict>
+								<key>referenceOid</key>
+								<string>9</string>
+								<key>startTime</key>
+								<real>1.4333333969116211</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>169.5px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>89DCEF7B-6060-4A32-8A96-D31978534236-2167-00001029E4B582EE</string>
+								<key>zIndex</key>
+								<integer>3</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.70000004768371582</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -1753,23 +1648,23 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{557, 705}</string>
+												<string>{103, 670}</string>
 												<key>endPoint</key>
-												<string>{527, 642}</string>
+												<string>{73, 607}</string>
 												<key>startControlPoint</key>
-												<string>{637, 683}</string>
+												<string>{183, 648}</string>
 												<key>startPoint</key>
-												<string>{637, 683}</string>
+												<string>{183, 648}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{545, 525}</string>
+												<string>{91, 490}</string>
 												<key>endPoint</key>
-												<string>{545, 525}</string>
+												<string>{91, 490}</string>
 												<key>startControlPoint</key>
-												<string>{496, 576}</string>
+												<string>{42, 541}</string>
 												<key>startPoint</key>
-												<string>{527, 642}</string>
+												<string>{73, 607}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -1782,12 +1677,12 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>FC5A2A44-945F-4FC1-A366-3FD195627597-230-0000029A28DA50ED</string>
+									<string>C10F7347-30BB-4DC0-8325-D7349E762979-699-000001AD9720ED9D</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>2</real>
+								<real>1.4333333969116211</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -1808,90 +1703,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>586.5px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>motionPath</key>
-								<dict>
-									<key>bezierPath</key>
-									<dict>
-										<key>allowEndPointModification</key>
-										<true/>
-										<key>bezierCurves</key>
-										<array>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{540, 477}</string>
-												<key>endPoint</key>
-												<string>{553, 434}</string>
-												<key>startControlPoint</key>
-												<string>{545, 525}</string>
-												<key>startPoint</key>
-												<string>{545, 525}</string>
-											</dict>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{600, 347}</string>
-												<key>endPoint</key>
-												<string>{600, 347}</string>
-												<key>startControlPoint</key>
-												<string>{567, 388}</string>
-												<key>startPoint</key>
-												<string>{553, 434}</string>
-											</dict>
-										</array>
-										<key>interpolationPointCount</key>
-										<real>100</real>
-										<key>showAllControlPoints</key>
-										<false/>
-										<key>useIntegerValues</key>
-										<true/>
-										<key>useSmallStyle</key>
-										<false/>
-									</dict>
-									<key>oid</key>
-									<string>3214DB68-8ACB-40A1-B493-A4F2F2E3438C-230-0000029A28DD6FD2</string>
-								</dict>
-								<key>referenceOid</key>
-								<string>9</string>
-								<key>startTime</key>
-								<real>2.9666666984558105</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>531.5px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>D7AAF026-33D0-416C-8C12-71CB77DDE1CF-2167-00001042F44F5180</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1</real>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>333.5px</string>
+									<string>298.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -1907,23 +1725,23 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{540, 477}</string>
+												<string>{86, 442}</string>
 												<key>endPoint</key>
-												<string>{553, 434}</string>
+												<string>{99, 399}</string>
 												<key>startControlPoint</key>
-												<string>{545, 525}</string>
+												<string>{91, 490}</string>
 												<key>startPoint</key>
-												<string>{545, 525}</string>
+												<string>{91, 490}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{600, 347}</string>
+												<string>{146, 312}</string>
 												<key>endPoint</key>
-												<string>{600, 347}</string>
+												<string>{146, 312}</string>
 												<key>startControlPoint</key>
-												<string>{567, 388}</string>
+												<string>{113, 353}</string>
 												<key>startPoint</key>
-												<string>{553, 434}</string>
+												<string>{99, 399}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -1936,18 +1754,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3214DB68-8ACB-40A1-B493-A4F2F2E3438C-230-0000029A28DD6FD2</string>
+									<string>A576797A-4815-4D2E-9494-CCF8D6E98417-699-000001AD972330E5</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>2.9666666984558105</real>
+								<real>2.1333334445953369</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>511.5px</string>
+									<string>476.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -1962,7 +1780,84 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.69999980926513672</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>132.5px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>motionPath</key>
+								<dict>
+									<key>bezierPath</key>
+									<dict>
+										<key>allowEndPointModification</key>
+										<true/>
+										<key>bezierCurves</key>
+										<array>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{86, 442}</string>
+												<key>endPoint</key>
+												<string>{99, 399}</string>
+												<key>startControlPoint</key>
+												<string>{91, 490}</string>
+												<key>startPoint</key>
+												<string>{91, 490}</string>
+											</dict>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{146, 312}</string>
+												<key>endPoint</key>
+												<string>{146, 312}</string>
+												<key>startControlPoint</key>
+												<string>{113, 353}</string>
+												<key>startPoint</key>
+												<string>{99, 399}</string>
+											</dict>
+										</array>
+										<key>interpolationPointCount</key>
+										<real>100</real>
+										<key>showAllControlPoints</key>
+										<false/>
+										<key>useIntegerValues</key>
+										<true/>
+										<key>useSmallStyle</key>
+										<false/>
+									</dict>
+									<key>oid</key>
+									<string>A576797A-4815-4D2E-9494-CCF8D6E98417-699-000001AD972330E5</string>
+								</dict>
+								<key>referenceOid</key>
+								<string>9</string>
+								<key>startTime</key>
+								<real>2.1333334445953369</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>77.5px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>D7AAF026-33D0-416C-8C12-71CB77DDE1CF-2167-00001042F44F5180</string>
+								<key>zIndex</key>
+								<integer>4</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -1984,23 +1879,23 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{540, 477}</string>
+												<string>{86, 442}</string>
 												<key>endPoint</key>
-												<string>{553, 434}</string>
+												<string>{99, 399}</string>
 												<key>startControlPoint</key>
-												<string>{545, 525}</string>
+												<string>{91, 490}</string>
 												<key>startPoint</key>
-												<string>{545, 525}</string>
+												<string>{91, 490}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{600, 347}</string>
+												<string>{146, 312}</string>
 												<key>endPoint</key>
-												<string>{600, 347}</string>
+												<string>{146, 312}</string>
 												<key>startControlPoint</key>
-												<string>{567, 388}</string>
+												<string>{113, 353}</string>
 												<key>startPoint</key>
-												<string>{553, 434}</string>
+												<string>{99, 399}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -2013,12 +1908,12 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>3214DB68-8ACB-40A1-B493-A4F2F2E3438C-230-0000029A28DD6FD2</string>
+									<string>A576797A-4815-4D2E-9494-CCF8D6E98417-699-000001AD972330E5</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>2.9666666984558105</real>
+								<real>2.1333334445953369</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -2039,13 +1934,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.1333332061767578</real>
+								<real>0.79999995231628418</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>334.5px</string>
+									<string>299.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -2061,33 +1956,33 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{630, 302}</string>
+												<string>{176, 267}</string>
 												<key>endPoint</key>
-												<string>{601, 278}</string>
+												<string>{147, 243}</string>
 												<key>startControlPoint</key>
-												<string>{600, 347}</string>
+												<string>{146, 312}</string>
 												<key>startPoint</key>
-												<string>{600, 347}</string>
+												<string>{146, 312}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{492, 318}</string>
+												<string>{38, 283}</string>
 												<key>endPoint</key>
-												<string>{533, 348}</string>
+												<string>{79, 313}</string>
 												<key>startControlPoint</key>
-												<string>{545, 233}</string>
+												<string>{91, 198}</string>
 												<key>startPoint</key>
-												<string>{601, 278}</string>
+												<string>{147, 243}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{601, 348}</string>
+												<string>{147, 313}</string>
 												<key>endPoint</key>
-												<string>{601, 348}</string>
+												<string>{147, 313}</string>
 												<key>startControlPoint</key>
-												<string>{574, 378}</string>
+												<string>{120, 343}</string>
 												<key>startPoint</key>
-												<string>{533, 348}</string>
+												<string>{79, 313}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -2100,18 +1995,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>99760FA9-493E-4055-AB83-2AF5526EC38C-230-0000029A28E0BB6C</string>
+									<string>3129BC48-7476-4713-8F09-2F6852CE7AB6-699-000001AD972593A4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>3.9666666984558105</real>
+								<real>2.8333332538604736</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>333.5px</string>
+									<string>298.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -2126,13 +2021,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.1333332061767578</real>
+								<real>0.79999995231628418</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>587.5px</string>
+									<string>133.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -2148,33 +2043,33 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{630, 302}</string>
+												<string>{176, 267}</string>
 												<key>endPoint</key>
-												<string>{601, 278}</string>
+												<string>{147, 243}</string>
 												<key>startControlPoint</key>
-												<string>{600, 347}</string>
+												<string>{146, 312}</string>
 												<key>startPoint</key>
-												<string>{600, 347}</string>
+												<string>{146, 312}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{492, 318}</string>
+												<string>{38, 283}</string>
 												<key>endPoint</key>
-												<string>{533, 348}</string>
+												<string>{79, 313}</string>
 												<key>startControlPoint</key>
-												<string>{545, 233}</string>
+												<string>{91, 198}</string>
 												<key>startPoint</key>
-												<string>{601, 278}</string>
+												<string>{147, 243}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{601, 348}</string>
+												<string>{147, 313}</string>
 												<key>endPoint</key>
-												<string>{601, 348}</string>
+												<string>{147, 313}</string>
 												<key>startControlPoint</key>
-												<string>{574, 378}</string>
+												<string>{120, 343}</string>
 												<key>startPoint</key>
-												<string>{533, 348}</string>
+												<string>{79, 313}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -2187,18 +2082,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>99760FA9-493E-4055-AB83-2AF5526EC38C-230-0000029A28E0BB6C</string>
+									<string>3129BC48-7476-4713-8F09-2F6852CE7AB6-699-000001AD972593A4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>3.9666666984558105</real>
+								<real>2.8333332538604736</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>586.5px</string>
+									<string>132.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -2213,7 +2108,7 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.1333332061767578</real>
+								<real>0.79999995231628418</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -2235,33 +2130,33 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{630, 302}</string>
+												<string>{176, 267}</string>
 												<key>endPoint</key>
-												<string>{601, 278}</string>
+												<string>{147, 243}</string>
 												<key>startControlPoint</key>
-												<string>{600, 347}</string>
+												<string>{146, 312}</string>
 												<key>startPoint</key>
-												<string>{600, 347}</string>
+												<string>{146, 312}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{492, 318}</string>
+												<string>{38, 283}</string>
 												<key>endPoint</key>
-												<string>{533, 348}</string>
+												<string>{79, 313}</string>
 												<key>startControlPoint</key>
-												<string>{545, 233}</string>
+												<string>{91, 198}</string>
 												<key>startPoint</key>
-												<string>{601, 278}</string>
+												<string>{147, 243}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{601, 348}</string>
+												<string>{147, 313}</string>
 												<key>endPoint</key>
-												<string>{601, 348}</string>
+												<string>{147, 313}</string>
 												<key>startControlPoint</key>
-												<string>{574, 378}</string>
+												<string>{120, 343}</string>
 												<key>startPoint</key>
-												<string>{533, 348}</string>
+												<string>{79, 313}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -2274,12 +2169,12 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>99760FA9-493E-4055-AB83-2AF5526EC38C-230-0000029A28E0BB6C</string>
+									<string>3129BC48-7476-4713-8F09-2F6852CE7AB6-699-000001AD972593A4</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>3.9666666984558105</real>
+								<real>2.8333332538604736</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -2300,100 +2195,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.86666679382324219</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>803.5px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>motionPath</key>
-								<dict>
-									<key>bezierPath</key>
-									<dict>
-										<key>allowEndPointModification</key>
-										<true/>
-										<key>bezierCurves</key>
-										<array>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{673, 253}</string>
-												<key>endPoint</key>
-												<string>{733, 238}</string>
-												<key>startControlPoint</key>
-												<string>{601, 348}</string>
-												<key>startPoint</key>
-												<string>{601, 348}</string>
-											</dict>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{784, 253}</string>
-												<key>endPoint</key>
-												<string>{793, 275}</string>
-												<key>startControlPoint</key>
-												<string>{760.63636363636363, 231.09090909090909}</string>
-												<key>startPoint</key>
-												<string>{733, 238}</string>
-											</dict>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{817, 295}</string>
-												<key>endPoint</key>
-												<string>{817, 295}</string>
-												<key>startControlPoint</key>
-												<string>{804, 302}</string>
-												<key>startPoint</key>
-												<string>{793, 275}</string>
-											</dict>
-										</array>
-										<key>interpolationPointCount</key>
-										<real>100</real>
-										<key>showAllControlPoints</key>
-										<false/>
-										<key>useIntegerValues</key>
-										<true/>
-										<key>useSmallStyle</key>
-										<false/>
-									</dict>
-									<key>oid</key>
-									<string>F5B98D2D-EF73-40DB-880D-047A5F113C80-230-0000029A28E41633</string>
-								</dict>
-								<key>referenceOid</key>
-								<string>9</string>
-								<key>startTime</key>
-								<real>5.0999999046325684</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>587.5px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>5A6FFC1A-81BD-4D47-9D92-26BBC2E7A47C-2167-0000104F12FE1039</string>
-								<key>zIndex</key>
-								<integer>6</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.86666679382324219</real>
+								<real>0.63333368301391602</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>281.5px</string>
+									<string>246.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -2409,33 +2217,33 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{673, 253}</string>
+												<string>{219, 218}</string>
 												<key>endPoint</key>
-												<string>{733, 238}</string>
+												<string>{279, 203}</string>
 												<key>startControlPoint</key>
-												<string>{601, 348}</string>
+												<string>{147, 313}</string>
 												<key>startPoint</key>
-												<string>{601, 348}</string>
+												<string>{147, 313}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{784, 253}</string>
+												<string>{330, 218}</string>
 												<key>endPoint</key>
-												<string>{793, 275}</string>
+												<string>{339, 240}</string>
 												<key>startControlPoint</key>
-												<string>{760.63636363636363, 231.09090909090909}</string>
+												<string>{307, 196}</string>
 												<key>startPoint</key>
-												<string>{733, 238}</string>
+												<string>{279, 203}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{817, 295}</string>
+												<string>{363, 260}</string>
 												<key>endPoint</key>
-												<string>{817, 295}</string>
+												<string>{363, 260}</string>
 												<key>startControlPoint</key>
-												<string>{804, 302}</string>
+												<string>{350, 267}</string>
 												<key>startPoint</key>
-												<string>{793, 275}</string>
+												<string>{339, 240}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -2448,18 +2256,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F5B98D2D-EF73-40DB-880D-047A5F113C80-230-0000029A28E41633</string>
+									<string>D2F10D6B-C02E-43B3-B6A5-1E279F7155A6-699-000001AD9728013E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>5.0999999046325684</real>
+								<real>3.6333332061767578</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>334.5px</string>
+									<string>299.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -2474,7 +2282,94 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.86666679382324219</real>
+								<real>0.63333368301391602</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>349.5px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>motionPath</key>
+								<dict>
+									<key>bezierPath</key>
+									<dict>
+										<key>allowEndPointModification</key>
+										<true/>
+										<key>bezierCurves</key>
+										<array>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{219, 218}</string>
+												<key>endPoint</key>
+												<string>{279, 203}</string>
+												<key>startControlPoint</key>
+												<string>{147, 313}</string>
+												<key>startPoint</key>
+												<string>{147, 313}</string>
+											</dict>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{330, 218}</string>
+												<key>endPoint</key>
+												<string>{339, 240}</string>
+												<key>startControlPoint</key>
+												<string>{307, 196}</string>
+												<key>startPoint</key>
+												<string>{279, 203}</string>
+											</dict>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{363, 260}</string>
+												<key>endPoint</key>
+												<string>{363, 260}</string>
+												<key>startControlPoint</key>
+												<string>{350, 267}</string>
+												<key>startPoint</key>
+												<string>{339, 240}</string>
+											</dict>
+										</array>
+										<key>interpolationPointCount</key>
+										<real>100</real>
+										<key>showAllControlPoints</key>
+										<false/>
+										<key>useIntegerValues</key>
+										<true/>
+										<key>useSmallStyle</key>
+										<false/>
+									</dict>
+									<key>oid</key>
+									<string>D2F10D6B-C02E-43B3-B6A5-1E279F7155A6-699-000001AD9728013E</string>
+								</dict>
+								<key>referenceOid</key>
+								<string>9</string>
+								<key>startTime</key>
+								<real>3.6333332061767578</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>133.5px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>5A6FFC1A-81BD-4D47-9D92-26BBC2E7A47C-2167-0000104F12FE1039</string>
+								<key>zIndex</key>
+								<integer>6</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.63333368301391602</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -2496,33 +2391,33 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{673, 253}</string>
+												<string>{219, 218}</string>
 												<key>endPoint</key>
-												<string>{733, 238}</string>
+												<string>{279, 203}</string>
 												<key>startControlPoint</key>
-												<string>{601, 348}</string>
+												<string>{147, 313}</string>
 												<key>startPoint</key>
-												<string>{601, 348}</string>
+												<string>{147, 313}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{784, 253}</string>
+												<string>{330, 218}</string>
 												<key>endPoint</key>
-												<string>{793, 275}</string>
+												<string>{339, 240}</string>
 												<key>startControlPoint</key>
-												<string>{760.63636363636363, 231.09090909090909}</string>
+												<string>{307, 196}</string>
 												<key>startPoint</key>
-												<string>{733, 238}</string>
+												<string>{279, 203}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{817, 295}</string>
+												<string>{363, 260}</string>
 												<key>endPoint</key>
-												<string>{817, 295}</string>
+												<string>{363, 260}</string>
 												<key>startControlPoint</key>
-												<string>{804, 302}</string>
+												<string>{350, 267}</string>
 												<key>startPoint</key>
-												<string>{793, 275}</string>
+												<string>{339, 240}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -2535,12 +2430,12 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>F5B98D2D-EF73-40DB-880D-047A5F113C80-230-0000029A28E41633</string>
+									<string>D2F10D6B-C02E-43B3-B6A5-1E279F7155A6-699-000001AD9728013E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>5.0999999046325684</real>
+								<real>3.6333332061767578</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -2561,13 +2456,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.96666669845581055</real>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>795.5px</string>
+									<string>341.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -2583,23 +2478,23 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{842, 299}</string>
+												<string>{388, 264}</string>
 												<key>endPoint</key>
-												<string>{850, 267}</string>
+												<string>{396, 232}</string>
 												<key>startControlPoint</key>
-												<string>{817, 295}</string>
+												<string>{363, 260}</string>
 												<key>startPoint</key>
-												<string>{817, 295}</string>
+												<string>{363, 260}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{809, 205}</string>
+												<string>{355, 170}</string>
 												<key>endPoint</key>
-												<string>{809, 205}</string>
+												<string>{355, 170}</string>
 												<key>startControlPoint</key>
-												<string>{856, 243}</string>
+												<string>{402, 208}</string>
 												<key>startPoint</key>
-												<string>{850, 267}</string>
+												<string>{396, 232}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -2612,18 +2507,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9138D2A1-4077-42F8-B1E5-58BA5214FBED-230-0000029A28E78FCC</string>
+									<string>9EEEB976-19BD-4BC2-A9A7-FDBCE9F4AEAF-699-000001AD972A7C25</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>5.9666666984558105</real>
+								<real>4.2666668891906738</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>803.5px</string>
+									<string>349.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -2638,13 +2533,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.96666669845581055</real>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>191.5px</string>
+									<string>156.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -2660,23 +2555,23 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{842, 299}</string>
+												<string>{388, 264}</string>
 												<key>endPoint</key>
-												<string>{850, 267}</string>
+												<string>{396, 232}</string>
 												<key>startControlPoint</key>
-												<string>{817, 295}</string>
+												<string>{363, 260}</string>
 												<key>startPoint</key>
-												<string>{817, 295}</string>
+												<string>{363, 260}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{809, 205}</string>
+												<string>{355, 170}</string>
 												<key>endPoint</key>
-												<string>{809, 205}</string>
+												<string>{355, 170}</string>
 												<key>startControlPoint</key>
-												<string>{856, 243}</string>
+												<string>{402, 208}</string>
 												<key>startPoint</key>
-												<string>{850, 267}</string>
+												<string>{396, 232}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -2689,18 +2584,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9138D2A1-4077-42F8-B1E5-58BA5214FBED-230-0000029A28E78FCC</string>
+									<string>9EEEB976-19BD-4BC2-A9A7-FDBCE9F4AEAF-699-000001AD972A7C25</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>5.9666666984558105</real>
+								<real>4.2666668891906738</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>281.5px</string>
+									<string>246.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -2715,7 +2610,7 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.96666669845581055</real>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -2737,23 +2632,23 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{842, 299}</string>
+												<string>{388, 264}</string>
 												<key>endPoint</key>
-												<string>{850, 267}</string>
+												<string>{396, 232}</string>
 												<key>startControlPoint</key>
-												<string>{817, 295}</string>
+												<string>{363, 260}</string>
 												<key>startPoint</key>
-												<string>{817, 295}</string>
+												<string>{363, 260}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{809, 205}</string>
+												<string>{355, 170}</string>
 												<key>endPoint</key>
-												<string>{809, 205}</string>
+												<string>{355, 170}</string>
 												<key>startControlPoint</key>
-												<string>{856, 243}</string>
+												<string>{402, 208}</string>
 												<key>startPoint</key>
-												<string>{850, 267}</string>
+												<string>{396, 232}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -2766,12 +2661,12 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>9138D2A1-4077-42F8-B1E5-58BA5214FBED-230-0000029A28E78FCC</string>
+									<string>9EEEB976-19BD-4BC2-A9A7-FDBCE9F4AEAF-699-000001AD972A7C25</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>5.9666666984558105</real>
+								<real>4.2666668891906738</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -2792,13 +2687,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>956.5px</string>
+									<string>502.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -2814,33 +2709,33 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{788, 137}</string>
+												<string>{334, 102}</string>
 												<key>endPoint</key>
-												<string>{884, 119}</string>
+												<string>{430, 84}</string>
 												<key>startControlPoint</key>
-												<string>{809, 205}</string>
+												<string>{355, 170}</string>
 												<key>startPoint</key>
-												<string>{809, 205}</string>
+												<string>{355, 170}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{943, 139}</string>
+												<string>{489, 104}</string>
 												<key>endPoint</key>
-												<string>{959, 167}</string>
+												<string>{505, 132}</string>
 												<key>startControlPoint</key>
-												<string>{903.69696969696975, 115.46464646464646}</string>
+												<string>{450, 80}</string>
 												<key>startPoint</key>
-												<string>{884, 119}</string>
+												<string>{430, 84}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{970, 232}</string>
+												<string>{516, 197}</string>
 												<key>endPoint</key>
-												<string>{970, 232}</string>
+												<string>{516, 197}</string>
 												<key>startControlPoint</key>
-												<string>{973, 192}</string>
+												<string>{519, 157}</string>
 												<key>startPoint</key>
-												<string>{959, 167}</string>
+												<string>{505, 132}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -2853,18 +2748,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>96BB190D-FF3C-4002-97CE-8BEED7EB7158-230-0000029A28EAF279</string>
+									<string>7CF9C5D8-1C3E-408B-A88F-74BFEF516E0A-699-000001AD972CD969</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>6.9333333969116211</real>
+								<real>4.9666666984558105</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>795.5px</string>
+									<string>341.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -2879,13 +2774,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>218.5px</string>
+									<string>183.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -2901,33 +2796,33 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{788, 137}</string>
+												<string>{334, 102}</string>
 												<key>endPoint</key>
-												<string>{884, 119}</string>
+												<string>{430, 84}</string>
 												<key>startControlPoint</key>
-												<string>{809, 205}</string>
+												<string>{355, 170}</string>
 												<key>startPoint</key>
-												<string>{809, 205}</string>
+												<string>{355, 170}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{943, 139}</string>
+												<string>{489, 104}</string>
 												<key>endPoint</key>
-												<string>{959, 167}</string>
+												<string>{505, 132}</string>
 												<key>startControlPoint</key>
-												<string>{903.69696969696975, 115.46464646464646}</string>
+												<string>{450, 80}</string>
 												<key>startPoint</key>
-												<string>{884, 119}</string>
+												<string>{430, 84}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{970, 232}</string>
+												<string>{516, 197}</string>
 												<key>endPoint</key>
-												<string>{970, 232}</string>
+												<string>{516, 197}</string>
 												<key>startControlPoint</key>
-												<string>{973, 192}</string>
+												<string>{519, 157}</string>
 												<key>startPoint</key>
-												<string>{959, 167}</string>
+												<string>{505, 132}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -2940,18 +2835,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>96BB190D-FF3C-4002-97CE-8BEED7EB7158-230-0000029A28EAF279</string>
+									<string>7CF9C5D8-1C3E-408B-A88F-74BFEF516E0A-699-000001AD972CD969</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>6.9333333969116211</real>
+								<real>4.9666666984558105</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>191.5px</string>
+									<string>156.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -2966,7 +2861,7 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -2988,33 +2883,33 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{788, 137}</string>
+												<string>{334, 102}</string>
 												<key>endPoint</key>
-												<string>{884, 119}</string>
+												<string>{430, 84}</string>
 												<key>startControlPoint</key>
-												<string>{809, 205}</string>
+												<string>{355, 170}</string>
 												<key>startPoint</key>
-												<string>{809, 205}</string>
+												<string>{355, 170}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{943, 139}</string>
+												<string>{489, 104}</string>
 												<key>endPoint</key>
-												<string>{959, 167}</string>
+												<string>{505, 132}</string>
 												<key>startControlPoint</key>
-												<string>{903.69696969696975, 115.46464646464646}</string>
+												<string>{450, 80}</string>
 												<key>startPoint</key>
-												<string>{884, 119}</string>
+												<string>{430, 84}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{970, 232}</string>
+												<string>{516, 197}</string>
 												<key>endPoint</key>
-												<string>{970, 232}</string>
+												<string>{516, 197}</string>
 												<key>startControlPoint</key>
-												<string>{973, 192}</string>
+												<string>{519, 157}</string>
 												<key>startPoint</key>
-												<string>{959, 167}</string>
+												<string>{505, 132}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -3027,12 +2922,12 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>96BB190D-FF3C-4002-97CE-8BEED7EB7158-230-0000029A28EAF279</string>
+									<string>7CF9C5D8-1C3E-408B-A88F-74BFEF516E0A-699-000001AD972CD969</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>6.9333333969116211</real>
+								<real>4.9666666984558105</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -3053,13 +2948,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.0666666030883789</real>
+								<real>0.76666688919067383</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>1241.5px</string>
+									<string>787.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -3075,43 +2970,43 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{999, 233}</string>
+												<string>{545, 198}</string>
 												<key>endPoint</key>
-												<string>{1037, 219}</string>
+												<string>{583, 184}</string>
 												<key>startControlPoint</key>
-												<string>{970, 232}</string>
+												<string>{516, 197}</string>
 												<key>startPoint</key>
-												<string>{970, 232}</string>
+												<string>{516, 197}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1095, 187}</string>
+												<string>{641, 152}</string>
 												<key>endPoint</key>
-												<string>{1120, 173}</string>
+												<string>{666, 138}</string>
 												<key>startControlPoint</key>
-												<string>{1063.5858585858587, 209.50505050505052}</string>
+												<string>{610, 175}</string>
 												<key>startPoint</key>
-												<string>{1037, 219}</string>
+												<string>{583, 184}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1180, 157}</string>
+												<string>{726, 122}</string>
 												<key>endPoint</key>
-												<string>{1211, 179}</string>
+												<string>{757, 144}</string>
 												<key>startControlPoint</key>
-												<string>{1132.878787878788, 165.78787878787878}</string>
+												<string>{679, 131}</string>
 												<key>startPoint</key>
-												<string>{1120, 173}</string>
+												<string>{666, 138}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1255, 258}</string>
+												<string>{801, 223}</string>
 												<key>endPoint</key>
-												<string>{1255, 258}</string>
+												<string>{801, 223}</string>
 												<key>startControlPoint</key>
-												<string>{1267, 219}</string>
+												<string>{813, 184}</string>
 												<key>startPoint</key>
-												<string>{1211, 179}</string>
+												<string>{757, 144}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -3124,18 +3019,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>94E75D44-E146-4E30-AF70-6182627DA6B3-230-0000029A28EE7B4A</string>
+									<string>CF3847F3-9381-4EAC-9CD3-E588915DE759-699-000001AD972F5AE8</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>7.9333333969116211</real>
+								<real>5.6666665077209473</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>956.5px</string>
+									<string>502.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -3150,13 +3045,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.0666666030883789</real>
+								<real>0.76666688919067383</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>244.5px</string>
+									<string>209.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -3172,43 +3067,43 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{999, 233}</string>
+												<string>{545, 198}</string>
 												<key>endPoint</key>
-												<string>{1037, 219}</string>
+												<string>{583, 184}</string>
 												<key>startControlPoint</key>
-												<string>{970, 232}</string>
+												<string>{516, 197}</string>
 												<key>startPoint</key>
-												<string>{970, 232}</string>
+												<string>{516, 197}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1095, 187}</string>
+												<string>{641, 152}</string>
 												<key>endPoint</key>
-												<string>{1120, 173}</string>
+												<string>{666, 138}</string>
 												<key>startControlPoint</key>
-												<string>{1063.5858585858587, 209.50505050505052}</string>
+												<string>{610, 175}</string>
 												<key>startPoint</key>
-												<string>{1037, 219}</string>
+												<string>{583, 184}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1180, 157}</string>
+												<string>{726, 122}</string>
 												<key>endPoint</key>
-												<string>{1211, 179}</string>
+												<string>{757, 144}</string>
 												<key>startControlPoint</key>
-												<string>{1132.878787878788, 165.78787878787878}</string>
+												<string>{679, 131}</string>
 												<key>startPoint</key>
-												<string>{1120, 173}</string>
+												<string>{666, 138}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1255, 258}</string>
+												<string>{801, 223}</string>
 												<key>endPoint</key>
-												<string>{1255, 258}</string>
+												<string>{801, 223}</string>
 												<key>startControlPoint</key>
-												<string>{1267, 219}</string>
+												<string>{813, 184}</string>
 												<key>startPoint</key>
-												<string>{1211, 179}</string>
+												<string>{757, 144}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -3221,18 +3116,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>94E75D44-E146-4E30-AF70-6182627DA6B3-230-0000029A28EE7B4A</string>
+									<string>CF3847F3-9381-4EAC-9CD3-E588915DE759-699-000001AD972F5AE8</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>7.9333333969116211</real>
+								<real>5.6666665077209473</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>218.5px</string>
+									<string>183.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -3247,7 +3142,7 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.0666666030883789</real>
+								<real>0.76666688919067383</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -3269,43 +3164,43 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{999, 233}</string>
+												<string>{545, 198}</string>
 												<key>endPoint</key>
-												<string>{1037, 219}</string>
+												<string>{583, 184}</string>
 												<key>startControlPoint</key>
-												<string>{970, 232}</string>
+												<string>{516, 197}</string>
 												<key>startPoint</key>
-												<string>{970, 232}</string>
+												<string>{516, 197}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1095, 187}</string>
+												<string>{641, 152}</string>
 												<key>endPoint</key>
-												<string>{1120, 173}</string>
+												<string>{666, 138}</string>
 												<key>startControlPoint</key>
-												<string>{1063.5858585858587, 209.50505050505052}</string>
+												<string>{610, 175}</string>
 												<key>startPoint</key>
-												<string>{1037, 219}</string>
+												<string>{583, 184}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1180, 157}</string>
+												<string>{726, 122}</string>
 												<key>endPoint</key>
-												<string>{1211, 179}</string>
+												<string>{757, 144}</string>
 												<key>startControlPoint</key>
-												<string>{1132.878787878788, 165.78787878787878}</string>
+												<string>{679, 131}</string>
 												<key>startPoint</key>
-												<string>{1120, 173}</string>
+												<string>{666, 138}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1255, 258}</string>
+												<string>{801, 223}</string>
 												<key>endPoint</key>
-												<string>{1255, 258}</string>
+												<string>{801, 223}</string>
 												<key>startControlPoint</key>
-												<string>{1267, 219}</string>
+												<string>{813, 184}</string>
 												<key>startPoint</key>
-												<string>{1211, 179}</string>
+												<string>{757, 144}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -3318,12 +3213,12 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>94E75D44-E146-4E30-AF70-6182627DA6B3-230-0000029A28EE7B4A</string>
+									<string>CF3847F3-9381-4EAC-9CD3-E588915DE759-699-000001AD972F5AE8</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>7.9333333969116211</real>
+								<real>5.6666665077209473</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -3344,90 +3239,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>1178.5px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>motionPath</key>
-								<dict>
-									<key>bezierPath</key>
-									<dict>
-										<key>allowEndPointModification</key>
-										<true/>
-										<key>bezierCurves</key>
-										<array>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{1210, 253}</string>
-												<key>endPoint</key>
-												<string>{1196, 263}</string>
-												<key>startControlPoint</key>
-												<string>{1255, 258}</string>
-												<key>startPoint</key>
-												<string>{1255, 258}</string>
-											</dict>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{1192, 287}</string>
-												<key>endPoint</key>
-												<string>{1192, 287}</string>
-												<key>startControlPoint</key>
-												<string>{1179, 275}</string>
-												<key>startPoint</key>
-												<string>{1196, 263}</string>
-											</dict>
-										</array>
-										<key>interpolationPointCount</key>
-										<real>100</real>
-										<key>showAllControlPoints</key>
-										<false/>
-										<key>useIntegerValues</key>
-										<true/>
-										<key>useSmallStyle</key>
-										<false/>
-									</dict>
-									<key>oid</key>
-									<string>107B0A20-309F-48DA-8068-82B68DF492E8-230-0000029A28F1E61B</string>
-								</dict>
-								<key>referenceOid</key>
-								<string>9</string>
-								<key>startTime</key>
-								<real>9</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>1241.5px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>EE084B99-9676-4F3F-855F-8768DE3C1EFB-2167-000010A5731E3538</string>
-								<key>zIndex</key>
-								<integer>10</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1</real>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>273.5px</string>
+									<string>238.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -3443,23 +3261,23 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1210, 253}</string>
+												<string>{756, 218}</string>
 												<key>endPoint</key>
-												<string>{1196, 263}</string>
+												<string>{742, 228}</string>
 												<key>startControlPoint</key>
-												<string>{1255, 258}</string>
+												<string>{801, 223}</string>
 												<key>startPoint</key>
-												<string>{1255, 258}</string>
+												<string>{801, 223}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1192, 287}</string>
+												<string>{738, 252}</string>
 												<key>endPoint</key>
-												<string>{1192, 287}</string>
+												<string>{738, 252}</string>
 												<key>startControlPoint</key>
-												<string>{1179, 275}</string>
+												<string>{725, 240}</string>
 												<key>startPoint</key>
-												<string>{1196, 263}</string>
+												<string>{742, 228}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -3472,18 +3290,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>107B0A20-309F-48DA-8068-82B68DF492E8-230-0000029A28F1E61B</string>
+									<string>C6F265A7-BB50-4956-936F-78B30E6E2214-699-000001AD9731E903</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>9</real>
+								<real>6.4333333969116211</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>244.5px</string>
+									<string>209.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -3498,7 +3316,84 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.69999980926513672</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>724.5px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>motionPath</key>
+								<dict>
+									<key>bezierPath</key>
+									<dict>
+										<key>allowEndPointModification</key>
+										<true/>
+										<key>bezierCurves</key>
+										<array>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{756, 218}</string>
+												<key>endPoint</key>
+												<string>{742, 228}</string>
+												<key>startControlPoint</key>
+												<string>{801, 223}</string>
+												<key>startPoint</key>
+												<string>{801, 223}</string>
+											</dict>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{738, 252}</string>
+												<key>endPoint</key>
+												<string>{738, 252}</string>
+												<key>startControlPoint</key>
+												<string>{725, 240}</string>
+												<key>startPoint</key>
+												<string>{742, 228}</string>
+											</dict>
+										</array>
+										<key>interpolationPointCount</key>
+										<real>100</real>
+										<key>showAllControlPoints</key>
+										<false/>
+										<key>useIntegerValues</key>
+										<true/>
+										<key>useSmallStyle</key>
+										<false/>
+									</dict>
+									<key>oid</key>
+									<string>C6F265A7-BB50-4956-936F-78B30E6E2214-699-000001AD9731E903</string>
+								</dict>
+								<key>referenceOid</key>
+								<string>9</string>
+								<key>startTime</key>
+								<real>6.4333333969116211</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>787.5px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>EE084B99-9676-4F3F-855F-8768DE3C1EFB-2167-000010A5731E3538</string>
+								<key>zIndex</key>
+								<integer>10</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -3520,23 +3415,23 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1210, 253}</string>
+												<string>{756, 218}</string>
 												<key>endPoint</key>
-												<string>{1196, 263}</string>
+												<string>{742, 228}</string>
 												<key>startControlPoint</key>
-												<string>{1255, 258}</string>
+												<string>{801, 223}</string>
 												<key>startPoint</key>
-												<string>{1255, 258}</string>
+												<string>{801, 223}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1192, 287}</string>
+												<string>{738, 252}</string>
 												<key>endPoint</key>
-												<string>{1192, 287}</string>
+												<string>{738, 252}</string>
 												<key>startControlPoint</key>
-												<string>{1179, 275}</string>
+												<string>{725, 240}</string>
 												<key>startPoint</key>
-												<string>{1196, 263}</string>
+												<string>{742, 228}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -3549,12 +3444,12 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>107B0A20-309F-48DA-8068-82B68DF492E8-230-0000029A28F1E61B</string>
+									<string>C6F265A7-BB50-4956-936F-78B30E6E2214-699-000001AD9731E903</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>9</real>
+								<real>6.4333333969116211</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -3575,13 +3470,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.73333358764648438</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>1359.5px</string>
+									<string>905.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -3597,43 +3492,43 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1195, 307}</string>
+												<string>{741, 272}</string>
 												<key>endPoint</key>
-												<string>{1258, 300}</string>
+												<string>{804, 265}</string>
 												<key>startControlPoint</key>
-												<string>{1192, 287}</string>
+												<string>{738, 252}</string>
 												<key>startPoint</key>
-												<string>{1192, 287}</string>
+												<string>{738, 252}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1299, 333}</string>
+												<string>{845, 298}</string>
 												<key>endPoint</key>
-												<string>{1325, 350}</string>
+												<string>{871, 315}</string>
 												<key>startControlPoint</key>
-												<string>{1284.1010101010102, 296.92929292929296}</string>
+												<string>{830, 262}</string>
 												<key>startPoint</key>
-												<string>{1258, 300}</string>
+												<string>{804, 265}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1363, 350}</string>
+												<string>{909, 315}</string>
 												<key>endPoint</key>
-												<string>{1383, 379}</string>
+												<string>{929, 344}</string>
 												<key>startControlPoint</key>
-												<string>{1341.1515151515152, 360.63636363636363}</string>
+												<string>{887, 326}</string>
 												<key>startPoint</key>
-												<string>{1325, 350}</string>
+												<string>{871, 315}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1373, 444}</string>
+												<string>{919, 409}</string>
 												<key>endPoint</key>
-												<string>{1373, 444}</string>
+												<string>{919, 409}</string>
 												<key>startControlPoint</key>
-												<string>{1401, 405}</string>
+												<string>{947, 370}</string>
 												<key>startPoint</key>
-												<string>{1383, 379}</string>
+												<string>{929, 344}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -3646,18 +3541,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2D7A2FFE-E8D8-4354-B924-E90B68F6E960-230-0000029A28F514CF</string>
+									<string>7B1F5A51-D406-46F5-A815-FD7B0A24FE67-699-000001AD973448A0</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>10</real>
+								<real>7.1333332061767578</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>1178.5px</string>
+									<string>724.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -3672,13 +3567,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.73333358764648438</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>430.5px</string>
+									<string>395.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -3694,43 +3589,43 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1195, 307}</string>
+												<string>{741, 272}</string>
 												<key>endPoint</key>
-												<string>{1258, 300}</string>
+												<string>{804, 265}</string>
 												<key>startControlPoint</key>
-												<string>{1192, 287}</string>
+												<string>{738, 252}</string>
 												<key>startPoint</key>
-												<string>{1192, 287}</string>
+												<string>{738, 252}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1299, 333}</string>
+												<string>{845, 298}</string>
 												<key>endPoint</key>
-												<string>{1325, 350}</string>
+												<string>{871, 315}</string>
 												<key>startControlPoint</key>
-												<string>{1284.1010101010102, 296.92929292929296}</string>
+												<string>{830, 262}</string>
 												<key>startPoint</key>
-												<string>{1258, 300}</string>
+												<string>{804, 265}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1363, 350}</string>
+												<string>{909, 315}</string>
 												<key>endPoint</key>
-												<string>{1383, 379}</string>
+												<string>{929, 344}</string>
 												<key>startControlPoint</key>
-												<string>{1341.1515151515152, 360.63636363636363}</string>
+												<string>{887, 326}</string>
 												<key>startPoint</key>
-												<string>{1325, 350}</string>
+												<string>{871, 315}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1373, 444}</string>
+												<string>{919, 409}</string>
 												<key>endPoint</key>
-												<string>{1373, 444}</string>
+												<string>{919, 409}</string>
 												<key>startControlPoint</key>
-												<string>{1401, 405}</string>
+												<string>{947, 370}</string>
 												<key>startPoint</key>
-												<string>{1383, 379}</string>
+												<string>{929, 344}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -3743,18 +3638,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2D7A2FFE-E8D8-4354-B924-E90B68F6E960-230-0000029A28F514CF</string>
+									<string>7B1F5A51-D406-46F5-A815-FD7B0A24FE67-699-000001AD973448A0</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>10</real>
+								<real>7.1333332061767578</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>273.5px</string>
+									<string>238.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -3769,7 +3664,7 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.73333358764648438</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -3791,43 +3686,43 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1195, 307}</string>
+												<string>{741, 272}</string>
 												<key>endPoint</key>
-												<string>{1258, 300}</string>
+												<string>{804, 265}</string>
 												<key>startControlPoint</key>
-												<string>{1192, 287}</string>
+												<string>{738, 252}</string>
 												<key>startPoint</key>
-												<string>{1192, 287}</string>
+												<string>{738, 252}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1299, 333}</string>
+												<string>{845, 298}</string>
 												<key>endPoint</key>
-												<string>{1325, 350}</string>
+												<string>{871, 315}</string>
 												<key>startControlPoint</key>
-												<string>{1284.1010101010102, 296.92929292929296}</string>
+												<string>{830, 262}</string>
 												<key>startPoint</key>
-												<string>{1258, 300}</string>
+												<string>{804, 265}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1363, 350}</string>
+												<string>{909, 315}</string>
 												<key>endPoint</key>
-												<string>{1383, 379}</string>
+												<string>{929, 344}</string>
 												<key>startControlPoint</key>
-												<string>{1341.1515151515152, 360.63636363636363}</string>
+												<string>{887, 326}</string>
 												<key>startPoint</key>
-												<string>{1325, 350}</string>
+												<string>{871, 315}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1373, 444}</string>
+												<string>{919, 409}</string>
 												<key>endPoint</key>
-												<string>{1373, 444}</string>
+												<string>{919, 409}</string>
 												<key>startControlPoint</key>
-												<string>{1401, 405}</string>
+												<string>{947, 370}</string>
 												<key>startPoint</key>
-												<string>{1383, 379}</string>
+												<string>{929, 344}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -3840,12 +3735,12 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>2D7A2FFE-E8D8-4354-B924-E90B68F6E960-230-0000029A28F514CF</string>
+									<string>7B1F5A51-D406-46F5-A815-FD7B0A24FE67-699-000001AD973448A0</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>10</real>
+								<real>7.1333332061767578</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -3866,13 +3761,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>670.5px</string>
+									<string>635.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -3888,63 +3783,63 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1382, 489}</string>
+												<string>{928, 454}</string>
 												<key>endPoint</key>
-												<string>{1369, 530}</string>
+												<string>{915, 495}</string>
 												<key>startControlPoint</key>
-												<string>{1373, 444}</string>
+												<string>{919, 409}</string>
 												<key>startPoint</key>
-												<string>{1373, 444}</string>
+												<string>{919, 409}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1338, 612}</string>
+												<string>{884, 577}</string>
 												<key>endPoint</key>
-												<string>{1367, 637}</string>
+												<string>{913, 602}</string>
 												<key>startControlPoint</key>
-												<string>{1363.6666666666667, 546.44444444444446}</string>
+												<string>{910, 511}</string>
 												<key>startPoint</key>
-												<string>{1369, 530}</string>
+												<string>{915, 495}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1435, 665}</string>
+												<string>{981, 630}</string>
 												<key>endPoint</key>
-												<string>{1450, 612}</string>
+												<string>{996, 577}</string>
 												<key>startControlPoint</key>
-												<string>{1385, 652}</string>
+												<string>{931, 617}</string>
 												<key>startPoint</key>
-												<string>{1367, 637}</string>
+												<string>{913, 602}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1421, 546}</string>
+												<string>{967, 511}</string>
 												<key>endPoint</key>
-												<string>{1388, 556}</string>
+												<string>{934, 521}</string>
 												<key>startControlPoint</key>
-												<string>{1460, 577}</string>
+												<string>{1006, 542}</string>
 												<key>startPoint</key>
-												<string>{1450, 612}</string>
+												<string>{996, 577}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1344, 594}</string>
+												<string>{890, 559}</string>
 												<key>endPoint</key>
-												<string>{1323, 638}</string>
+												<string>{869, 603}</string>
 												<key>startControlPoint</key>
-												<string>{1372.1616161616162, 560.94949494949492}</string>
+												<string>{918, 526}</string>
 												<key>startPoint</key>
-												<string>{1388, 556}</string>
+												<string>{934, 521}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>endPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>startControlPoint</key>
-												<string>{1304, 677}</string>
+												<string>{850, 642}</string>
 												<key>startPoint</key>
-												<string>{1323, 638}</string>
+												<string>{869, 603}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -3957,18 +3852,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>ACFFAEF7-2AB3-42C9-94E1-8CD3FDCB8E4B-230-0000029A28F86A08</string>
+									<string>69C557C1-3E9A-4E7C-8F88-FED66C8CEBC7-699-000001AD9736B825</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>11</real>
+								<real>7.8666667938232422</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>430.5px</string>
+									<string>395.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -3983,13 +3878,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>1249.5px</string>
+									<string>795.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -4005,63 +3900,63 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1382, 489}</string>
+												<string>{928, 454}</string>
 												<key>endPoint</key>
-												<string>{1369, 530}</string>
+												<string>{915, 495}</string>
 												<key>startControlPoint</key>
-												<string>{1373, 444}</string>
+												<string>{919, 409}</string>
 												<key>startPoint</key>
-												<string>{1373, 444}</string>
+												<string>{919, 409}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1338, 612}</string>
+												<string>{884, 577}</string>
 												<key>endPoint</key>
-												<string>{1367, 637}</string>
+												<string>{913, 602}</string>
 												<key>startControlPoint</key>
-												<string>{1363.6666666666667, 546.44444444444446}</string>
+												<string>{910, 511}</string>
 												<key>startPoint</key>
-												<string>{1369, 530}</string>
+												<string>{915, 495}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1435, 665}</string>
+												<string>{981, 630}</string>
 												<key>endPoint</key>
-												<string>{1450, 612}</string>
+												<string>{996, 577}</string>
 												<key>startControlPoint</key>
-												<string>{1385, 652}</string>
+												<string>{931, 617}</string>
 												<key>startPoint</key>
-												<string>{1367, 637}</string>
+												<string>{913, 602}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1421, 546}</string>
+												<string>{967, 511}</string>
 												<key>endPoint</key>
-												<string>{1388, 556}</string>
+												<string>{934, 521}</string>
 												<key>startControlPoint</key>
-												<string>{1460, 577}</string>
+												<string>{1006, 542}</string>
 												<key>startPoint</key>
-												<string>{1450, 612}</string>
+												<string>{996, 577}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1344, 594}</string>
+												<string>{890, 559}</string>
 												<key>endPoint</key>
-												<string>{1323, 638}</string>
+												<string>{869, 603}</string>
 												<key>startControlPoint</key>
-												<string>{1372.1616161616162, 560.94949494949492}</string>
+												<string>{918, 526}</string>
 												<key>startPoint</key>
-												<string>{1388, 556}</string>
+												<string>{934, 521}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>endPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>startControlPoint</key>
-												<string>{1304, 677}</string>
+												<string>{850, 642}</string>
 												<key>startPoint</key>
-												<string>{1323, 638}</string>
+												<string>{869, 603}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -4074,18 +3969,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>ACFFAEF7-2AB3-42C9-94E1-8CD3FDCB8E4B-230-0000029A28F86A08</string>
+									<string>69C557C1-3E9A-4E7C-8F88-FED66C8CEBC7-699-000001AD9736B825</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>11</real>
+								<real>7.8666667938232422</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>1359.5px</string>
+									<string>905.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -4100,7 +3995,7 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -4122,63 +4017,63 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1382, 489}</string>
+												<string>{928, 454}</string>
 												<key>endPoint</key>
-												<string>{1369, 530}</string>
+												<string>{915, 495}</string>
 												<key>startControlPoint</key>
-												<string>{1373, 444}</string>
+												<string>{919, 409}</string>
 												<key>startPoint</key>
-												<string>{1373, 444}</string>
+												<string>{919, 409}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1338, 612}</string>
+												<string>{884, 577}</string>
 												<key>endPoint</key>
-												<string>{1367, 637}</string>
+												<string>{913, 602}</string>
 												<key>startControlPoint</key>
-												<string>{1363.6666666666667, 546.44444444444446}</string>
+												<string>{910, 511}</string>
 												<key>startPoint</key>
-												<string>{1369, 530}</string>
+												<string>{915, 495}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1435, 665}</string>
+												<string>{981, 630}</string>
 												<key>endPoint</key>
-												<string>{1450, 612}</string>
+												<string>{996, 577}</string>
 												<key>startControlPoint</key>
-												<string>{1385, 652}</string>
+												<string>{931, 617}</string>
 												<key>startPoint</key>
-												<string>{1367, 637}</string>
+												<string>{913, 602}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1421, 546}</string>
+												<string>{967, 511}</string>
 												<key>endPoint</key>
-												<string>{1388, 556}</string>
+												<string>{934, 521}</string>
 												<key>startControlPoint</key>
-												<string>{1460, 577}</string>
+												<string>{1006, 542}</string>
 												<key>startPoint</key>
-												<string>{1450, 612}</string>
+												<string>{996, 577}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1344, 594}</string>
+												<string>{890, 559}</string>
 												<key>endPoint</key>
-												<string>{1323, 638}</string>
+												<string>{869, 603}</string>
 												<key>startControlPoint</key>
-												<string>{1372.1616161616162, 560.94949494949492}</string>
+												<string>{918, 526}</string>
 												<key>startPoint</key>
-												<string>{1388, 556}</string>
+												<string>{934, 521}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>endPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>startControlPoint</key>
-												<string>{1304, 677}</string>
+												<string>{850, 642}</string>
 												<key>startPoint</key>
-												<string>{1323, 638}</string>
+												<string>{869, 603}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -4191,12 +4086,12 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>ACFFAEF7-2AB3-42C9-94E1-8CD3FDCB8E4B-230-0000029A28F86A08</string>
+									<string>69C557C1-3E9A-4E7C-8F88-FED66C8CEBC7-699-000001AD9736B825</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>11</real>
+								<real>7.8666667938232422</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -4217,13 +4112,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.73333358764648438</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>670.5px</string>
+									<string>635.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -4239,33 +4134,33 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1213, 674}</string>
+												<string>{759, 639}</string>
 												<key>endPoint</key>
-												<string>{1200, 718}</string>
+												<string>{746, 683}</string>
 												<key>startControlPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>startPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1262, 800}</string>
+												<string>{808, 765}</string>
 												<key>endPoint</key>
-												<string>{1285, 760}</string>
+												<string>{831, 725}</string>
 												<key>startControlPoint</key>
-												<string>{1183, 778}</string>
+												<string>{729, 743}</string>
 												<key>startPoint</key>
-												<string>{1200, 718}</string>
+												<string>{746, 683}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>endPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>startControlPoint</key>
-												<string>{1313, 710}</string>
+												<string>{859, 675}</string>
 												<key>startPoint</key>
-												<string>{1285, 760}</string>
+												<string>{831, 725}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -4278,18 +4173,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>EA3F60C7-C575-4EE8-AF37-C5060729D255-230-0000029A28FBF222</string>
+									<string>CCA37499-C489-4853-AD12-4FA999D513C0-699-000001AD97393780</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>12</real>
+								<real>8.5666666030883789</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>670.5px</string>
+									<string>635.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -4304,13 +4199,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.73333358764648438</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>1249.5px</string>
+									<string>795.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -4326,33 +4221,33 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1213, 674}</string>
+												<string>{759, 639}</string>
 												<key>endPoint</key>
-												<string>{1200, 718}</string>
+												<string>{746, 683}</string>
 												<key>startControlPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>startPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1262, 800}</string>
+												<string>{808, 765}</string>
 												<key>endPoint</key>
-												<string>{1285, 760}</string>
+												<string>{831, 725}</string>
 												<key>startControlPoint</key>
-												<string>{1183, 778}</string>
+												<string>{729, 743}</string>
 												<key>startPoint</key>
-												<string>{1200, 718}</string>
+												<string>{746, 683}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>endPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>startControlPoint</key>
-												<string>{1313, 710}</string>
+												<string>{859, 675}</string>
 												<key>startPoint</key>
-												<string>{1285, 760}</string>
+												<string>{831, 725}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -4365,18 +4260,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>EA3F60C7-C575-4EE8-AF37-C5060729D255-230-0000029A28FBF222</string>
+									<string>CCA37499-C489-4853-AD12-4FA999D513C0-699-000001AD97393780</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>12</real>
+								<real>8.5666666030883789</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>1249.5px</string>
+									<string>795.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -4391,7 +4286,7 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.73333358764648438</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -4413,33 +4308,33 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1213, 674}</string>
+												<string>{759, 639}</string>
 												<key>endPoint</key>
-												<string>{1200, 718}</string>
+												<string>{746, 683}</string>
 												<key>startControlPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>startPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1262, 800}</string>
+												<string>{808, 765}</string>
 												<key>endPoint</key>
-												<string>{1285, 760}</string>
+												<string>{831, 725}</string>
 												<key>startControlPoint</key>
-												<string>{1183, 778}</string>
+												<string>{729, 743}</string>
 												<key>startPoint</key>
-												<string>{1200, 718}</string>
+												<string>{746, 683}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>endPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>startControlPoint</key>
-												<string>{1313, 710}</string>
+												<string>{859, 675}</string>
 												<key>startPoint</key>
-												<string>{1285, 760}</string>
+												<string>{831, 725}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -4452,12 +4347,12 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>EA3F60C7-C575-4EE8-AF37-C5060729D255-230-0000029A28FBF222</string>
+									<string>CCA37499-C489-4853-AD12-4FA999D513C0-699-000001AD97393780</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>12</real>
+								<real>8.5666666030883789</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -4478,13 +4373,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>765.5px</string>
+									<string>730.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -4500,63 +4395,73 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1251, 675}</string>
+												<string>{797, 640}</string>
 												<key>endPoint</key>
-												<string>{1246.543472682132, 644.47189165401596}</string>
+												<string>{793, 609}</string>
 												<key>startControlPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>startPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1193, 570}</string>
+												<string>{739, 535}</string>
 												<key>endPoint</key>
-												<string>{1150, 587}</string>
+												<string>{696, 552}</string>
 												<key>startControlPoint</key>
-												<string>{1241, 607}</string>
+												<string>{787, 572}</string>
 												<key>startPoint</key>
-												<string>{1246.543472682132, 644.47189165401596}</string>
+												<string>{793, 609}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1087, 623}</string>
+												<string>{633, 588}</string>
 												<key>endPoint</key>
-												<string>{1096, 663}</string>
+												<string>{642, 628}</string>
 												<key>startControlPoint</key>
-												<string>{1128.4646464646464, 595.69696969696975}</string>
+												<string>{674, 561}</string>
 												<key>startPoint</key>
-												<string>{1150, 587}</string>
+												<string>{696, 552}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1099, 707}</string>
+												<string>{645, 672}</string>
 												<key>endPoint</key>
-												<string>{1122, 723}</string>
+												<string>{668, 688}</string>
 												<key>startControlPoint</key>
-												<string>{1099.5653504744414, 678.08417508417506}</string>
+												<string>{646, 643}</string>
 												<key>startPoint</key>
-												<string>{1096, 663}</string>
+												<string>{642, 628}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1139, 737}</string>
+												<string>{685, 702}</string>
 												<key>endPoint</key>
-												<string>{1138, 749}</string>
+												<string>{684, 714}</string>
 												<key>startControlPoint</key>
-												<string>{1133, 731}</string>
+												<string>{679, 696}</string>
 												<key>startPoint</key>
-												<string>{1122, 723}</string>
+												<string>{668, 688}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1078, 779}</string>
+												<string>{639, 743}</string>
 												<key>endPoint</key>
-												<string>{1078, 779}</string>
+												<string>{627, 744}</string>
 												<key>startControlPoint</key>
-												<string>{1135, 778}</string>
+												<string>{681, 739}</string>
 												<key>startPoint</key>
-												<string>{1138, 749}</string>
+												<string>{684, 714}</string>
+											</dict>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{624, 744}</string>
+												<key>endPoint</key>
+												<string>{624, 744}</string>
+												<key>startControlPoint</key>
+												<string>{625, 744}</string>
+												<key>startPoint</key>
+												<string>{627, 744}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -4569,18 +4474,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>FCBF495F-CBAD-4161-B5FC-BBEBF0D21D3F-230-0000029A28FF308D</string>
+									<string>F5AF6C1D-2552-4378-A740-2A407EB6005B-699-000001AD973B726E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>13</real>
+								<real>9.3000001907348633</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>670.5px</string>
+									<string>635.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -4595,13 +4500,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>1064.5px</string>
+									<string>610.5px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -4617,63 +4522,73 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1251, 675}</string>
+												<string>{797, 640}</string>
 												<key>endPoint</key>
-												<string>{1246.543472682132, 644.47189165401596}</string>
+												<string>{793, 609}</string>
 												<key>startControlPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>startPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1193, 570}</string>
+												<string>{739, 535}</string>
 												<key>endPoint</key>
-												<string>{1150, 587}</string>
+												<string>{696, 552}</string>
 												<key>startControlPoint</key>
-												<string>{1241, 607}</string>
+												<string>{787, 572}</string>
 												<key>startPoint</key>
-												<string>{1246.543472682132, 644.47189165401596}</string>
+												<string>{793, 609}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1087, 623}</string>
+												<string>{633, 588}</string>
 												<key>endPoint</key>
-												<string>{1096, 663}</string>
+												<string>{642, 628}</string>
 												<key>startControlPoint</key>
-												<string>{1128.4646464646464, 595.69696969696975}</string>
+												<string>{674, 561}</string>
 												<key>startPoint</key>
-												<string>{1150, 587}</string>
+												<string>{696, 552}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1099, 707}</string>
+												<string>{645, 672}</string>
 												<key>endPoint</key>
-												<string>{1122, 723}</string>
+												<string>{668, 688}</string>
 												<key>startControlPoint</key>
-												<string>{1099.5653504744414, 678.08417508417506}</string>
+												<string>{646, 643}</string>
 												<key>startPoint</key>
-												<string>{1096, 663}</string>
+												<string>{642, 628}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1139, 737}</string>
+												<string>{685, 702}</string>
 												<key>endPoint</key>
-												<string>{1138, 749}</string>
+												<string>{684, 714}</string>
 												<key>startControlPoint</key>
-												<string>{1133, 731}</string>
+												<string>{679, 696}</string>
 												<key>startPoint</key>
-												<string>{1122, 723}</string>
+												<string>{668, 688}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1078, 779}</string>
+												<string>{639, 743}</string>
 												<key>endPoint</key>
-												<string>{1078, 779}</string>
+												<string>{627, 744}</string>
 												<key>startControlPoint</key>
-												<string>{1135, 778}</string>
+												<string>{681, 739}</string>
 												<key>startPoint</key>
-												<string>{1138, 749}</string>
+												<string>{684, 714}</string>
+											</dict>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{624, 744}</string>
+												<key>endPoint</key>
+												<string>{624, 744}</string>
+												<key>startControlPoint</key>
+												<string>{625, 744}</string>
+												<key>startPoint</key>
+												<string>{627, 744}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -4686,18 +4601,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>FCBF495F-CBAD-4161-B5FC-BBEBF0D21D3F-230-0000029A28FF308D</string>
+									<string>F5AF6C1D-2552-4378-A740-2A407EB6005B-699-000001AD973B726E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>13</real>
+								<real>9.3000001907348633</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>1249.5px</string>
+									<string>795.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -4712,13 +4627,13 @@
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1</real>
+								<real>0.69999980926513672</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>MotionPathRotation</string>
 									<key>objectValue</key>
-									<string>178deg</string>
+									<string>180deg</string>
 								</dict>
 								<key>identifier</key>
 								<string>MotionPathRotation</string>
@@ -4734,63 +4649,73 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1251, 675}</string>
+												<string>{797, 640}</string>
 												<key>endPoint</key>
-												<string>{1246.543472682132, 644.47189165401596}</string>
+												<string>{793, 609}</string>
 												<key>startControlPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>startPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1193, 570}</string>
+												<string>{739, 535}</string>
 												<key>endPoint</key>
-												<string>{1150, 587}</string>
+												<string>{696, 552}</string>
 												<key>startControlPoint</key>
-												<string>{1241, 607}</string>
+												<string>{787, 572}</string>
 												<key>startPoint</key>
-												<string>{1246.543472682132, 644.47189165401596}</string>
+												<string>{793, 609}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1087, 623}</string>
+												<string>{633, 588}</string>
 												<key>endPoint</key>
-												<string>{1096, 663}</string>
+												<string>{642, 628}</string>
 												<key>startControlPoint</key>
-												<string>{1128.4646464646464, 595.69696969696975}</string>
+												<string>{674, 561}</string>
 												<key>startPoint</key>
-												<string>{1150, 587}</string>
+												<string>{696, 552}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1099, 707}</string>
+												<string>{645, 672}</string>
 												<key>endPoint</key>
-												<string>{1122, 723}</string>
+												<string>{668, 688}</string>
 												<key>startControlPoint</key>
-												<string>{1099.5653504744414, 678.08417508417506}</string>
+												<string>{646, 643}</string>
 												<key>startPoint</key>
-												<string>{1096, 663}</string>
+												<string>{642, 628}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1139, 737}</string>
+												<string>{685, 702}</string>
 												<key>endPoint</key>
-												<string>{1138, 749}</string>
+												<string>{684, 714}</string>
 												<key>startControlPoint</key>
-												<string>{1133, 731}</string>
+												<string>{679, 696}</string>
 												<key>startPoint</key>
-												<string>{1122, 723}</string>
+												<string>{668, 688}</string>
 											</dict>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1078, 779}</string>
+												<string>{639, 743}</string>
 												<key>endPoint</key>
-												<string>{1078, 779}</string>
+												<string>{627, 744}</string>
 												<key>startControlPoint</key>
-												<string>{1135, 778}</string>
+												<string>{681, 739}</string>
 												<key>startPoint</key>
-												<string>{1138, 749}</string>
+												<string>{684, 714}</string>
+											</dict>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{624, 744}</string>
+												<key>endPoint</key>
+												<string>{624, 744}</string>
+												<key>startControlPoint</key>
+												<string>{625, 744}</string>
+												<key>startPoint</key>
+												<string>{627, 744}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -4803,12 +4728,12 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>FCBF495F-CBAD-4161-B5FC-BBEBF0D21D3F-230-0000029A28FF308D</string>
+									<string>F5AF6C1D-2552-4378-A740-2A407EB6005B-699-000001AD973B726E</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>13</real>
+								<real>9.3000001907348633</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -4831,66 +4756,6 @@
 								<key>duration</key>
 								<real>0.0</real>
 								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>motionPath</key>
-								<dict>
-									<key>bezierPath</key>
-									<dict>
-										<key>allowEndPointModification</key>
-										<true/>
-										<key>bezierCurves</key>
-										<array>
-											<dict>
-												<key>endControlPoint</key>
-												<string>{1263, 684}</string>
-												<key>endPoint</key>
-												<string>{1263, 684}</string>
-												<key>startControlPoint</key>
-												<string>{1078, 779}</string>
-												<key>startPoint</key>
-												<string>{1078, 779}</string>
-											</dict>
-										</array>
-										<key>interpolationPointCount</key>
-										<real>100</real>
-										<key>showAllControlPoints</key>
-										<false/>
-										<key>useIntegerValues</key>
-										<true/>
-										<key>useSmallStyle</key>
-										<false/>
-									</dict>
-									<key>oid</key>
-									<string>91534495-510D-480A-B61A-B9842660E65E-230-0000029A2902AFDD</string>
-								</dict>
-								<key>referenceOid</key>
-								<string>9</string>
-								<key>startTime</key>
-								<real>14</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>1064.5px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>41EDDAE0-4A43-496B-81C0-760AFB96267E-2167-0000114AB8FC2243</string>
-								<key>zIndex</key>
-								<integer>15</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
 								<string>Top</string>
 								<key>isRelative</key>
 								<false/>
@@ -4904,13 +4769,13 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>endPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>startControlPoint</key>
-												<string>{1078, 779}</string>
+												<string>{624, 744}</string>
 												<key>startPoint</key>
-												<string>{1078, 779}</string>
+												<string>{624, 744}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -4923,18 +4788,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>91534495-510D-480A-B61A-B9842660E65E-230-0000029A2902AFDD</string>
+									<string>93F26058-D0FB-4205-A46A-428D23CB3C21-699-000001AD973DF01A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>14</real>
+								<real>10</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>765.5px</string>
+									<string>730.5px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -4944,6 +4809,66 @@
 								<integer>0</integer>
 								<key>uuid</key>
 								<string>8499EE1B-F247-47E5-8B49-F4CFC86FBB74-2167-0000114AB8FE82B6</string>
+								<key>zIndex</key>
+								<integer>15</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>motionPath</key>
+								<dict>
+									<key>bezierPath</key>
+									<dict>
+										<key>allowEndPointModification</key>
+										<true/>
+										<key>bezierCurves</key>
+										<array>
+											<dict>
+												<key>endControlPoint</key>
+												<string>{809, 649}</string>
+												<key>endPoint</key>
+												<string>{809, 649}</string>
+												<key>startControlPoint</key>
+												<string>{624, 744}</string>
+												<key>startPoint</key>
+												<string>{624, 744}</string>
+											</dict>
+										</array>
+										<key>interpolationPointCount</key>
+										<real>100</real>
+										<key>showAllControlPoints</key>
+										<false/>
+										<key>useIntegerValues</key>
+										<true/>
+										<key>useSmallStyle</key>
+										<false/>
+									</dict>
+									<key>oid</key>
+									<string>93F26058-D0FB-4205-A46A-428D23CB3C21-699-000001AD973DF01A</string>
+								</dict>
+								<key>referenceOid</key>
+								<string>9</string>
+								<key>startTime</key>
+								<real>10</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>610.5px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>41EDDAE0-4A43-496B-81C0-760AFB96267E-2167-0000114AB8FC2243</string>
 								<key>zIndex</key>
 								<integer>15</integer>
 							</dict>
@@ -4964,13 +4889,13 @@
 										<array>
 											<dict>
 												<key>endControlPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>endPoint</key>
-												<string>{1263, 684}</string>
+												<string>{809, 649}</string>
 												<key>startControlPoint</key>
-												<string>{1078, 779}</string>
+												<string>{624, 744}</string>
 												<key>startPoint</key>
-												<string>{1078, 779}</string>
+												<string>{624, 744}</string>
 											</dict>
 										</array>
 										<key>interpolationPointCount</key>
@@ -4983,18 +4908,18 @@
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>91534495-510D-480A-B61A-B9842660E65E-230-0000029A2902AFDD</string>
+									<string>93F26058-D0FB-4205-A46A-428D23CB3C21-699-000001AD973DF01A</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
 								<key>startTime</key>
-								<real>14</real>
+								<real>10</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>MotionPathRotation</string>
 									<key>objectValue</key>
-									<string>178deg</string>
+									<string>180deg</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5015,9 +4940,9 @@
 						<key>hidden</key>
 						<false/>
 						<key>identifier</key>
-						<string>kTimelineDefaultIdentifier</string>
+						<string>53</string>
 						<key>name</key>
-						<string>Main Timeline</string>
+						<string>map animation</string>
 						<key>userDefinedDuration</key>
 						<real>0.0</real>
 					</dict>
@@ -6382,6 +6307,6 @@
 	<key>webAppCapable</key>
 	<integer>0</integer>
 	<key>zoomFactor</key>
-	<real>0.75</real>
+	<real>1</real>
 </dict>
 </plist>

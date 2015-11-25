@@ -17,9 +17,12 @@ block js
 
 
 block content
-	span.btn.btn-main.js-link
-		i.icon.icon_chair
-		| Найти
+	.b-map.js-map
+		#map_hype_container(style="margin:auto;position:relative;width:1012px;height:800px;overflow:hidden;" aria-live="polite")
+			script(type="text/javascript" charset="utf-8" src="assets/js/map.hyperesources/map_hype_generated_script.js")
+		span.btn.btn-main.js-link
+			i.icon.icon_chair
+			| Найти
 
 	.b-form
 		.letter.js-letter
