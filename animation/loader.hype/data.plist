@@ -23,17 +23,39 @@
 	<key>drawSceneBackgrounds</key>
 	<true/>
 	<key>fonts</key>
-	<array/>
+	<array>
+		<dict>
+			<key>additionalHeadHTML</key>
+			<string></string>
+			<key>categories</key>
+			<array>
+				<string>Custom CSS</string>
+				<string>Web</string>
+				<string>iOS</string>
+			</array>
+			<key>fontNames</key>
+			<array>
+				<string>Segoe UI</string>
+				<string>SegoeUI</string>
+			</array>
+			<key>fontSource</key>
+			<integer>2</integer>
+			<key>name</key>
+			<string>Segoe</string>
+			<key>oid</key>
+			<string>689EEF3E-2EE9-46CA-9C9D-4E2D3C2E9DC8-5511-00001BE84E53533E</string>
+		</dict>
+	</array>
 	<key>guidesAreLocked</key>
 	<false/>
 	<key>guidesAreVisible</key>
 	<true/>
 	<key>lastCheckDate</key>
-	<date>2015-11-25T16:12:31Z</date>
+	<date>2015-11-25T16:47:42Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>1</integer>
+		<integer>4</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -477,7 +499,7 @@
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
-						<string>#FFFFFF</string>
+						<string>#424243</string>
 						<key>breakpointWidth</key>
 						<real>600</real>
 						<key>name</key>
@@ -538,7 +560,8 @@ function endOfAnimation(hypeDocument, element, event) {
 			<string>C3DD54FB-6B76-4A9E-A2C2-C5AF0B373D6A-5511-00001B3670794A05</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>42</string>
+				<string>11</string>
+				<string>10</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -568,7 +591,7 @@ function endOfAnimation(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>FontFamily</string>
 							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
+							<string>'Segoe UI',SegoeUI</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -622,7 +645,7 @@ function endOfAnimation(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>182px</string>
+							<string>177px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -658,7 +681,7 @@ function endOfAnimation(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>250px</string>
+							<string>247px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -682,7 +705,7 @@ function endOfAnimation(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>99px</string>
+							<string>117px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -727,7 +750,7 @@ function endOfAnimation(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>FontFamily</string>
 							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
+							<string>'Segoe UI',SegoeUI</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -811,13 +834,13 @@ function endOfAnimation(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>18px</string>
+							<string>21px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>334px</string>
+							<string>335px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3911,7 +3934,7 @@ function endOfAnimation(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>349px</string>
+									<string>350px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -3926,7 +3949,7 @@ function endOfAnimation(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>334px</string>
+									<string>335px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -4359,7 +4382,7 @@ function endOfAnimation(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>349px</string>
+									<string>350px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
