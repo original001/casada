@@ -165,7 +165,7 @@ a {
 		bottom: 100px;
 	}
 }
-.letter {
+.letter, .letter-chair {
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -177,6 +177,18 @@ a {
 	background: url(../img/letter.png) 50% no-repeat;
 	&.show {
 		bottom: 0;	
+	}
+	&.fixed {
+		position: fixed;
+		z-index: 100;
+	}
+}
+
+.letter-chair {
+	height: 175px;
+	background: url(../img/letter2.png) -7px 0 no-repeat;
+	&.fixed {
+		z-index: 120;
 	}
 }
 
@@ -237,8 +249,15 @@ a {
 }
 
 .b-land {
+	height: 100%;
 	position: relative;
 	margin-bottom: 75px;
+	&__img {
+		height: 100%;
+		img {
+			min-height: 100%;
+		}
+	}
 	&__caption {
 		position: absolute;
 		top: 0;
@@ -268,6 +287,7 @@ a {
 }
 
 .b-path {
+	position: relative;
 	text-align: center;
 	&__img {
 		margin-bottom: 50px;
@@ -298,6 +318,29 @@ a {
 	font-size: 22px;
 	color: #fff;
 	background: url(../img/sign.png) 0 0 no-repeat;
+}
+
+.b-about {
+	position: absolute;
+	width: 970px;
+	z-index: 110;
+	bottom: -1000px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	transition: bottom 1s;
+	&.show {
+		bottom: 0;
+	}
+	&.fixed {
+		position: fixed;
+	}
+}
+
+.about {
+	opacity: 0.9;
+	padding: 50px;	
+	background-color: #fff;
 }
 
 //==================================
