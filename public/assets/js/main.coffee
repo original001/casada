@@ -23,7 +23,7 @@ $ ->
 
 	$ '.js-btn-form'
 		.click (e) ->
-			if validate()
+			if !validate()
 				$ '.js-form-main, .js-letter'
 					.removeClass 'show'
 
