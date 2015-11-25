@@ -26,6 +26,9 @@ $ ->
 				$ '.js-loading'
 					.show()
 
+				### function from hype ###
+				HYPE.documents['loader'].startTimelineNamed('animation', HYPE.documents['loader'].kDirectionForward);
+
 	validate = ->
 		isValid = true
 		options = $('.js-form-main').find('.js-option')
