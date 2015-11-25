@@ -1,4 +1,8 @@
 $ ->
+	$ 'body'
+		.on 'load.loader', ->
+			console.log('success')
+
 	$ '.js-link'
 		.click (e) ->
 			$(this).fadeOut(400)
