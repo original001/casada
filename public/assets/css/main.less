@@ -43,6 +43,9 @@ a {
 	}
 }
 .main {
+	position: relative;
+}
+.main, .main-static {
 	width: @content-width;
 	margin: 0 auto;
 	.clearfix;
@@ -69,9 +72,12 @@ a {
 	}
 }
 .btn-main {
-	position: relative;
-	z-index: 10;
-	margin: -308px auto;
+	position: absolute;
+	z-index: 1;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: 200px;
 }
 .btn-form {
 	margin: 0 auto;
@@ -82,6 +88,10 @@ a {
 }
 
 @import url('../_less/icons.less');
+
+.b-map {
+	overflow: auto;
+}
 
 .form-main {
 	position: absolute;
@@ -167,6 +177,7 @@ a {
 }
 .letter, .letter-chair {
 	position: absolute;
+	z-index: 100;
 	left: 0;
 	right: 0;
 	bottom: -500px;
