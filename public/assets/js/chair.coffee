@@ -11,4 +11,6 @@ $ ->
 						.addClass 'ov'
 					$ '.js-letter-chair'
 						.addClass 'show'
+					$ '.js-land-caption'
+						.fadeOut 400
 					return
