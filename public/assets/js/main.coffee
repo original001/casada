@@ -3,9 +3,9 @@ $ ->
 
 	$ 'body'
 		.on 'load.loader', ->
-			random = Math.floor(Math.random() * routing.length)
+			random = Math.round(Math.random() * (routing.length - 1))
 
-			window.location.href = "place_#{routing[random]}.html"
+			window.location.href = "place_#{routing[random] || 'africa'}.html"
 
 	$ '.js-link'
 		.click (e) ->

@@ -17,6 +17,9 @@ body {
 	position: relative;
 	line-height: @line-height-base;
 	-webkit-font-smoothing: antialiased;
+	&.ov {
+		overflow: hidden;
+	}
 }
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2;
@@ -31,6 +34,7 @@ a {
 .page {
 	position: relative;
 	min-height: 100%;
+	min-width: @content-width;
 	background:  50% no-repeat;
 	background-size: auto 100%;
 	transition: background 1s;
@@ -48,6 +52,11 @@ a {
 .main, .main-static {
 	width: @content-width;
 	margin: 0 auto;
+	.clearfix;
+}
+.main-full-width {
+	position: relative;
+	min-width: @content-width;
 	.clearfix;
 }
 .content {
@@ -175,7 +184,7 @@ a {
 		bottom: 100px;
 	}
 }
-.letter, .letter-chair {
+.letter {
 	position: absolute;
 	z-index: 100;
 	left: 0;
@@ -187,21 +196,10 @@ a {
 	margin: 0 auto;
 	background: url(../img/letter.png) 50% no-repeat;
 	&.show {
-		bottom: 0;	
-	}
-	&.fixed {
-		position: fixed;
-		z-index: 100;
+		bottom: 0;
 	}
 }
 
-.letter-chair {
-	height: 175px;
-	background: url(../img/letter2.png) -7px 0 no-repeat;
-	&.fixed {
-		z-index: 120;
-	}
-}
 
 .popup-error {
 	position: absolute;
@@ -260,11 +258,13 @@ a {
 }
 
 .b-land {
+	min-width: @content-width;
 	height: 100%;
 	position: relative;
-	margin-bottom: 75px;
+	overflow: hidden;
 	&__img {
 		height: 100%;
+		overflow: hidden;
 		img {
 			min-height: 100%;
 		}
@@ -272,8 +272,10 @@ a {
 	&__caption {
 		position: absolute;
 		top: 0;
+		bottom: 0;
 		width: 100%;
-		padding-top: 190px;
+		height: 550px;
+		margin: auto;
 		text-align: center;
 		color: #fff;
 	}
@@ -302,11 +304,14 @@ a {
 	text-align: center;
 	&__img {
 		margin-bottom: 50px;
+		img {
+			max-width: 100%
+		}
 	}
 	&__header {
 		font-size: 50px;
 		.ff-rupster;
-		margin-bottom: 70px;
+		margin: 75px 0 70px;
 	}
 	&__or {
 		font-size: 50px;
@@ -331,27 +336,57 @@ a {
 	background: url(../img/sign.png) 0 0 no-repeat;
 }
 
-.b-about {
+.b-letter-chair {
 	position: absolute;
-	width: 970px;
-	z-index: 110;
-	bottom: -1000px;
-	left: 0;
-	right: 0;
-	margin: auto;
-	transition: bottom 1s;
+	padding-top: 36px;
+	top: 100%;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	transition: top 1s;
 	&.show {
-		bottom: 0;
+		top: 0;
 	}
-	&.fixed {
-		position: fixed;
-	}
+}
+
+.letter-chair:extend(.letter) {
+	left: -44px;
+	bottom: 0;
+	height: 175px;
+	background: url(../img/letter2.png) -7px 0 no-repeat;
+}
+
+.b-about {
+	position: relative;
+	width: 970px;
+	margin: auto;
 }
 
 .about {
 	opacity: 0.9;
 	padding: 50px;	
 	background-color: #fff;
+	&__red {
+		line-height: 1;
+		color: @color-red-text;
+		font-size: 36px;
+		text-transform: uppercase;
+		margin-bottom: 16px;
+	}
+	&__time {
+		font-weight: bold;	
+		font-size: 36px;
+		strong {
+			font-size: 48px;
+			margin-right: 10px;
+		}
+	}
+	&__title {
+		font-weight: bold;
+		font-size: 48px;
+		line-height: 1;
+		margin-bottom: 30px;
+	}
 }
 
 //==================================

@@ -1,10 +1,14 @@
 $ ->
 	$ '.js-path-button' 
 		.click ->
-			$ '.js-chair-letter, .js-about-form'
-				.addClass 'show fixed'
 
 			$ 'html, body'
 				.animate
 					scrollTop: 0
 				, 1000
+				, ->
+					$ 'body'
+						.addClass 'ov'
+					$ '.js-letter-chair'
+						.addClass 'show'
+					return
