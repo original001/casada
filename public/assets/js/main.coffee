@@ -1,5 +1,5 @@
 $ ->
-	routing = ['africa','kalifornia']
+	routing = ['africa','kalifornia','arctica','bagami','baikal','laplandia']
 
 	$ window
 		.load ->
