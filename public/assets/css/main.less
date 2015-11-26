@@ -516,14 +516,25 @@ a {
 	&__left, &__right {
 		display: table-cell;
 		background: #e6e4d7;
-		.bdrs(10px);
+		.bdrs(15px);
 	}
 	&__left {
-		float: left;	
-		width: 270px;
+		position: relative;
+		background: repeating-linear-gradient(45deg, #e6e4d7 , #e6e4d7 10px, #dfddcc 10px, #dfddcc 20px );
+		background: -webkit-repeating-linear-gradient(45deg, #e6e4d7 , #e6e4d7 10px, #dfddcc 10px, #dfddcc 20px );
+		width: 230px;
+		border-right: 1px solid #b0afa6;
+		&-divider {
+			position: absolute;	
+			top: 15px;
+			right: -3px;
+			bottom: 15px;
+			width: 5px;
+			background: data-uri('../ico/letter-dash.png') repeat-y;
+		}
 	}
 	&__right {
-		margin-left: 270px;
+		margin-left: 230px;
 	}
 	&__img {
 		position: absolute;
@@ -532,6 +543,16 @@ a {
 		width: 492px;
 		height: 376px;
 		background: url(../img/mark.png) 0 0 no-repeat;
+	}
+	&__code {
+		position: absolute;
+		bottom: 42px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 197px;
+		height: 56px;
+		background: url(../img/code.png) 0 0 no-repeat;
 	}
 }
 
@@ -552,6 +573,8 @@ a {
 		line-height: 1;
 	}
 	&__form {
+		position: relative;
+		z-index: 1;
 		text-align: justify;
 	}
 	&__input {
@@ -565,6 +588,7 @@ a {
 		.plh(#636363);
 		box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.15);
 		margin-bottom: 13px;
+		.bdrs(5px);
 		&_half {
 			width: 49%;
 		}
@@ -579,6 +603,9 @@ a {
 // from magnific popup
 .mfp-bg {
 	.op(.3);
+}
+.mfp-close {
+	display: none !important;
 }
 //==================================
 @import url('../_less/helper.less');
