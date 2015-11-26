@@ -4,6 +4,7 @@ $ ->
 	$ window
 		.load ->
 			$('.js-loader').fadeOut(600);
+			### function from hype ###
 			HYPE.documents['map'].startTimelineNamed('map animation', HYPE.documents['map'].kDirectionForward);
 
 	$ 'body'
@@ -39,6 +40,9 @@ $ ->
 
 				$ '.js-loading'
 					.show()
+
+				$ '.js-loader-name'
+					.text $('#name').val()
 
 				### function from hype ###
 				HYPE.documents['loader'].startTimelineNamed('animation', HYPE.documents['loader'].kDirectionForward);

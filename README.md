@@ -9,8 +9,6 @@
 
 - # -> javascript:void(0)
 - ie8-10
-- cdn jquery
-- grunt js unlink unusable
 
 ### PIE
 
