@@ -13,8 +13,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierPosition</string>
 		<string>kPropertiesMenuItemIdentifierAnimated</string>
+		<string>kPropertiesMenuItemIdentifierPosition</string>
 	</array>
 	<key>documentVersion</key>
 	<string>458</string>
@@ -51,7 +51,7 @@
 	<key>guidesAreVisible</key>
 	<true/>
 	<key>lastCheckDate</key>
-	<date>2015-11-25T17:31:32Z</date>
+	<date>2015-11-26T20:06:54Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -59,9 +59,9 @@
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1920, 996}}</string>
+			<string>{{0, 0}, {1170, 703}}</string>
 			<key>identifier</key>
-			<string>container 29</string>
+			<string>container 20</string>
 			<key>isCustomizableViewContainer</key>
 			<true/>
 			<key>isCustomizableViewWrapper</key>
@@ -72,45 +72,83 @@
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1649, 996}}</string>
+					<string>{{0, 0}, {899, 703}}</string>
 					<key>identifier</key>
-					<string>container 20</string>
+					<string>container 55</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
 					<false/>
 					<key>isVertical</key>
-					<false/>
+					<true/>
 					<key>subviews</key>
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {1649, 249}}</string>
+							<string>{{0, 0}, {628, 703}}</string>
 							<key>identifier</key>
-							<string>container 4</string>
+							<string>container 46</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
-							<true/>
+							<false/>
 							<key>isVertical</key>
-							<true/>
+							<false/>
 							<key>subviews</key>
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {1649, 249}}</string>
+									<string>{{0, 0}, {628, 251}}</string>
 									<key>identifier</key>
-									<string>timelineCustomizableContainer</string>
+									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
-									<false/>
+									<true/>
+									<key>isCustomizableViewWrapper</key>
+									<true/>
+									<key>isVertical</key>
+									<true/>
+									<key>subviews</key>
+									<array>
+										<dict>
+											<key>frame</key>
+											<string>{{0, 0}, {628, 251}}</string>
+											<key>identifier</key>
+											<string>timelineCustomizableContainer</string>
+											<key>isCustomizableViewContainer</key>
+											<false/>
+										</dict>
+									</array>
+								</dict>
+								<dict>
+									<key>frame</key>
+									<string>{{0, 252}, {628, 451}}</string>
+									<key>identifier</key>
+									<string>container 3</string>
+									<key>isCustomizableViewContainer</key>
+									<true/>
+									<key>isCustomizableViewWrapper</key>
+									<true/>
+									<key>isVertical</key>
+									<true/>
+									<key>subviews</key>
+									<array>
+										<dict>
+											<key>frame</key>
+											<string>{{0, 252}, {628, 451}}</string>
+											<key>identifier</key>
+											<string>sceneEditorCustomizableContainer</string>
+											<key>isCustomizableViewContainer</key>
+											<false/>
+										</dict>
+									</array>
 								</dict>
 							</array>
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 250}, {1649, 746}}</string>
+							<string>{{629, 0}, {270, 703}}</string>
 							<key>identifier</key>
-							<string>container 3</string>
+							<string>container 45</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
@@ -121,9 +159,9 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 250}, {1649, 746}}</string>
+									<string>{{629, 0}, {270, 703}}</string>
 									<key>identifier</key>
-									<string>sceneEditorCustomizableContainer</string>
+									<string>inspectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
 									<false/>
 								</dict>
@@ -133,9 +171,9 @@
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1650, 0}, {270, 996}}</string>
+					<string>{{900, 0}, {270, 703}}</string>
 					<key>identifier</key>
-					<string>container 19</string>
+					<string>container 54</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -146,9 +184,9 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1650, 0}, {270, 996}}</string>
+							<string>{{900, 0}, {270, 703}}</string>
 							<key>identifier</key>
-							<string>inspectorCustomizableContainer</string>
+							<string>resourcesCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
 							<false/>
 						</dict>
@@ -174,7 +212,7 @@
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
-		<false/>
+		<true/>
 		<key>showSceneSelectorView</key>
 		<false/>
 		<key>showSceneVariantSelectorView</key>
@@ -219,18 +257,6 @@
 				<key>resources</key>
 				<array>
 					<string>aeroplan.png</string>
-				</array>
-			</dict>
-			<dict>
-				<key>expanded</key>
-				<true/>
-				<key>name</key>
-				<string>bg</string>
-				<key>oid</key>
-				<string>5</string>
-				<key>resources</key>
-				<array>
-					<string>bg.jpg</string>
 				</array>
 			</dict>
 			<dict>
@@ -298,56 +324,6 @@
 				AAAAACAgAACoAQAAAAAAADAgAADUAQAAAAAAAAHAAAAc
 				AQAAAAAAABHAAAAgAAAAAAAAABLAAAAsAQAAAAAAABDQ
 				AAAEAAAAAAAAAA==
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<false/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<false/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
-				<date>2015-11-24T15:37:26Z</date>
-				<key>fileSize</key>
-				<integer>412572</integer>
-				<key>md5</key>
-				<string>5CED92834EBB4BF1FC957D719C21A922</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/vova/Downloads/loader/bg.jpg</string>
-				<key>resourceName</key>
-				<string>bg.jpg</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va9wCAAAAAAQQMAAAAFu5Twph8q4U0MLPrKOlW2es
-				/YT3E5ADl2sQdWFgPVJS2AEAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAAEAAAAAQEAAHZvdmEJAAAAAQEA
-				AERvd25sb2FkcwAAAAYAAAABAQAAbG9hZGVyAAAGAAAA
-				AQEAAGJnLmpwZwAAFAAAAAEGAAAQAAAAIAAAACwAAABA
-				AAAAUAAAAAgAAAAEAwAACSoGAAAAAAAIAAAABAMAAHAw
-				DQAAAAAACAAAAAQDAABzMA0AAAAAAAgAAAAEAwAApm4Y
-				AAAAAAAIAAAABAMAACVvGAAAAAAAFAAAAAEGAAB8AAAA
-				jAAAAJwAAACsAAAAvAAAAAgAAAAABAAAQbwEu7YAAAAY
-				AAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgA
-				AAAEAwAAAwAAAAAAAAAEAAAAAwMAAPYBAAAIAAAAAQkA
-				AGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAA
-				BAMAAAAAYCd0AAAACAAAAAAEAABBulThsQAAACQAAAAB
-				AQAAQ0VFRjM3ODAtNTY5NS0zQkNGLTk5M0QtMUIzN0Q0
-				NTg4RDJBGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAA
-				AAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+////
-				AQAAAAAAAAAQAAAABBAAAGAAAAAAAAAABRAAAMwAAAAA
-				AAAAEBAAAPgAAAAAAAAAQBAAAOgAAAAAAAAAAiAAAMQB
-				AAAAAAAABSAAADQBAAAAAAAAECAAAEQBAAAAAAAAESAA
-				AHgBAAAAAAAAEiAAAFgBAAAAAAAAEyAAAGgBAAAAAAAA
-				ICAAAKQBAAAAAAAAMCAAANABAAAAAAAAAcAAABgBAAAA
-				AAAAEcAAACAAAAAAAAAAEsAAACgBAAAAAAAAENAAAAQA
-				AAAAAAAA
 				</data>
 				<key>shouldAutoResize</key>
 				<true/>
@@ -487,7 +463,7 @@
 						<key>timeCursors</key>
 						<dict>
 							<key>206</key>
-							<real>5</real>
+							<real>5.6999998092651367</real>
 							<key>kTimelineDefaultIdentifier</key>
 							<real>5.6999998092651367</real>
 						</dict>
@@ -495,7 +471,7 @@
 						<integer>100</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1649, 746}</string>
+					<string>{651, 451}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -559,7 +535,7 @@ function endOfAnimation(hypeDocument, element, event) {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>A0DC6D38-7A91-4C02-823F-253B071BE67F-699-000000C324146D69</string>
+			<string>F55BF606-3984-446E-8DED-35471CE6CAFD-2575-000016C84DF4E736</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -600,9 +576,9 @@ function endOfAnimation(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#FFFFFF</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -738,9 +714,9 @@ function endOfAnimation(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#FFFFFF</string>
 						</dict>
 					</array>
 					<key>11</key>
@@ -759,9 +735,9 @@ function endOfAnimation(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#FFFFFF</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -891,9 +867,9 @@ function endOfAnimation(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#FFFFFF</string>
 						</dict>
 					</array>
 					<key>42</key>
@@ -1023,9 +999,9 @@ function endOfAnimation(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>85px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1141,18 +1117,18 @@ function endOfAnimation(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>85px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>9</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>28px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1282,9 +1258,9 @@ function endOfAnimation(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>28px</string>
 						</dict>
 					</array>
 				</dict>
@@ -1559,7 +1535,7 @@ function endOfAnimation(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>B45315C9-514E-4B23-B1A9-86D4C4EC0DAF-5016-000017BE254975E6</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>1</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -1599,7 +1575,7 @@ function endOfAnimation(hypeDocument, element, event) {
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.0000000149011612</real>
+								<real>1</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
@@ -1650,7 +1626,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>E92D8F98-A951-4C6D-B6CE-E2F3C06F9F24-699-000000C1C465FA68</string>
+									<string>BD54255D-B871-4B93-BBD9-F92C9367663C-2575-000016C7FC7A4A29</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1727,7 +1703,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>E92D8F98-A951-4C6D-B6CE-E2F3C06F9F24-699-000000C1C465FA68</string>
+									<string>BD54255D-B871-4B93-BBD9-F92C9367663C-2575-000016C7FC7A4A29</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1804,7 +1780,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>E92D8F98-A951-4C6D-B6CE-E2F3C06F9F24-699-000000C1C465FA68</string>
+									<string>BD54255D-B871-4B93-BBD9-F92C9367663C-2575-000016C7FC7A4A29</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -1826,7 +1802,7 @@ function endOfAnimation(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>DB0DD97F-9267-420F-8B5F-0EB5A21CB50E-5016-00001736F7C7CB68</string>
 								<key>zIndex</key>
-								<integer>3</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -2169,7 +2145,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>D6DBE9B9-8043-45C9-9C1B-8BE5857E35B1-699-000000C1C46CAFC9</string>
+									<string>002CC3F6-BDF7-4151-AC6A-85ABAE7D6186-2575-000016C7FC8061B7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2246,7 +2222,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>D6DBE9B9-8043-45C9-9C1B-8BE5857E35B1-699-000000C1C46CAFC9</string>
+									<string>002CC3F6-BDF7-4151-AC6A-85ABAE7D6186-2575-000016C7FC8061B7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2323,7 +2299,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>D6DBE9B9-8043-45C9-9C1B-8BE5857E35B1-699-000000C1C46CAFC9</string>
+									<string>002CC3F6-BDF7-4151-AC6A-85ABAE7D6186-2575-000016C7FC8061B7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2345,7 +2321,7 @@ function endOfAnimation(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>766F3D24-9399-4B8F-BD9F-906B69F714B7-5016-00001736F7DFAF45</string>
 								<key>zIndex</key>
-								<integer>4</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -2525,7 +2501,7 @@ function endOfAnimation(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>E45A7635-3D44-4E22-A5B0-C9856ABAC479-5016-000017BE25513EF6</string>
 								<key>zIndex</key>
-								<integer>5</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -2705,7 +2681,7 @@ function endOfAnimation(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>D04795FD-D2E2-437E-9317-569FC7FD7B67-5016-000017CB0726E035</string>
 								<key>zIndex</key>
-								<integer>6</integer>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -2832,7 +2808,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>BD1156B2-AD2C-4D2A-AF16-9E0E29543268-699-000000C1C4749B86</string>
+									<string>6EEAD4A1-9816-4713-B04F-5BC0E3C464AD-2575-000016C7FC880947</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2909,7 +2885,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>BD1156B2-AD2C-4D2A-AF16-9E0E29543268-699-000000C1C4749B86</string>
+									<string>6EEAD4A1-9816-4713-B04F-5BC0E3C464AD-2575-000016C7FC880947</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -2986,7 +2962,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>BD1156B2-AD2C-4D2A-AF16-9E0E29543268-699-000000C1C4749B86</string>
+									<string>6EEAD4A1-9816-4713-B04F-5BC0E3C464AD-2575-000016C7FC880947</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3008,7 +2984,7 @@ function endOfAnimation(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>7BFDC712-8E43-4A64-BF55-E6AEC34FB5A0-5016-0000173AD793AF9F</string>
 								<key>zIndex</key>
-								<integer>7</integer>
+								<integer>6</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -3351,7 +3327,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>CBAD6051-8E5D-4A97-8DB0-5FB8E2C2AEE9-699-000000C1C47A86C4</string>
+									<string>C585262C-96C1-495A-AB58-06288F2E6EFA-2575-000016C7FC8D9B92</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3428,7 +3404,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>CBAD6051-8E5D-4A97-8DB0-5FB8E2C2AEE9-699-000000C1C47A86C4</string>
+									<string>C585262C-96C1-495A-AB58-06288F2E6EFA-2575-000016C7FC8D9B92</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3505,7 +3481,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>CBAD6051-8E5D-4A97-8DB0-5FB8E2C2AEE9-699-000000C1C47A86C4</string>
+									<string>C585262C-96C1-495A-AB58-06288F2E6EFA-2575-000016C7FC8D9B92</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -3527,7 +3503,7 @@ function endOfAnimation(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>E880E75C-E624-4BA1-B6A8-6D39171B7228-5016-0000173ED39D1158</string>
 								<key>zIndex</key>
-								<integer>8</integer>
+								<integer>7</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -3599,7 +3575,7 @@ function endOfAnimation(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>E3DA984A-FBE1-42AB-973B-28BCE4319FBF-5016-000017CD84D97DB9</string>
 								<key>zIndex</key>
-								<integer>9</integer>
+								<integer>8</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -3779,7 +3755,7 @@ function endOfAnimation(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>3340E6A6-94D8-4703-BC45-99D99BCE8F01-5016-000017F6E4E7E23B</string>
 								<key>zIndex</key>
-								<integer>10</integer>
+								<integer>9</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -4050,7 +4026,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A16CF3A0-51BA-4853-85EA-4786F5A024A5-699-000000C1C482E37A</string>
+									<string>FF3AC3E6-7BD2-4AC0-A075-12C6AE72AB0A-2575-000016C7FC957AA0</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4127,7 +4103,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A16CF3A0-51BA-4853-85EA-4786F5A024A5-699-000000C1C482E37A</string>
+									<string>FF3AC3E6-7BD2-4AC0-A075-12C6AE72AB0A-2575-000016C7FC957AA0</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4149,7 +4125,7 @@ function endOfAnimation(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>D0B3C72E-5C5E-4F0C-B42B-E1253D06D66D-5016-0000174318D1BEEE</string>
 								<key>zIndex</key>
-								<integer>11</integer>
+								<integer>10</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -4204,7 +4180,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>A16CF3A0-51BA-4853-85EA-4786F5A024A5-699-000000C1C482E37A</string>
+									<string>FF3AC3E6-7BD2-4AC0-A075-12C6AE72AB0A-2575-000016C7FC957AA0</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4423,7 +4399,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>55B35D94-2DF9-4955-934C-6C266E1EF137-699-000000C1C488BC55</string>
+									<string>3A2BA427-70A4-4FBF-A87E-EF08D435376B-2575-000016C7FC99BF01</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4483,7 +4459,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>55B35D94-2DF9-4955-934C-6C266E1EF137-699-000000C1C488BC55</string>
+									<string>3A2BA427-70A4-4FBF-A87E-EF08D435376B-2575-000016C7FC99BF01</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4505,7 +4481,7 @@ function endOfAnimation(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>5A71B95A-392A-481E-9C58-D8FDBFA243AF-5016-00001747B88AE673</string>
 								<key>zIndex</key>
-								<integer>13</integer>
+								<integer>11</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -4543,7 +4519,7 @@ function endOfAnimation(hypeDocument, element, event) {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>55B35D94-2DF9-4955-934C-6C266E1EF137-699-000000C1C488BC55</string>
+									<string>3A2BA427-70A4-4FBF-A87E-EF08D435376B-2575-000016C7FC99BF01</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>9</string>
@@ -4633,7 +4609,7 @@ function endOfAnimation(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>DEAB3B90-B62E-4DFF-9B74-CA15BD107861-5016-000017F6E4ECCC56</string>
 								<key>zIndex</key>
-								<integer>14</integer>
+								<integer>12</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
