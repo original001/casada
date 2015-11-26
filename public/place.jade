@@ -1,0 +1,33 @@
+extends ./layout.jade
+
+block title
+	title Типовая страница
+
+block css
+	link(rel="stylesheet", href="assets/plugins/magnific-popup/dist/magnific-popup.css")
+	
+block js
+	script(src="assets/plugins/magnific-popup/dist/jquery.magnific-popup.min.js")
+	script.
+		$(function(){
+			$('.js-open-popup').magnificPopup({type: 'inline'})
+			$('.js-close-popup').click($.magnificPopup.close)
+		})
+	script(src="assets/js/chair.js")
+
+
+block page
+	.b-land
+		block land
+
+		include _include/letter
+	.main-full-width.clearfix
+		.b-path
+			.b-path__header Как добраться:
+			.b-path__img
+				block path
+					
+			.b-path__or или
+			.b-path__button.btn.btn-form.js-path-button есть идея получше
+		a(href="http://vsemassager.ru").sign www.vsemassager.ru
+	include _include/modal

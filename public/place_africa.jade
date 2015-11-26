@@ -1,92 +1,12 @@
-extends ./layout.jade
+extends ./place.jade
 
-block title
-	title Типовая страница
+block land 
+	.b-land__img
+		img(src="assets/img/africa.jpg", alt="")
+	.b-land__caption.js-land-caption
+		.b-land__icon
+		.b-land__header Африка
+		.b-land__text Релакс в песках и гарантированный загар. 
 
-block css
-	link(rel="stylesheet", href="assets/plugins/magnific-popup/dist/magnific-popup.css")
-	
-block js
-	script(src="assets/plugins/magnific-popup/dist/jquery.magnific-popup.min.js")
-	script.
-		$(function(){
-			$('.js-open-popup').magnificPopup({type: 'inline'})
-			$('.js-close-popup').click($.magnificPopup.close)
-		})
-	script(src="assets/js/chair.js")
-
-
-block page
-	.b-land
-		.b-land__img
-			img(src="assets/img/africa.jpg", alt="")
-		.b-land__caption.js-land-caption
-			.b-land__icon
-			.b-land__header Африка
-			.b-land__text Релакс в песках и гарантированный загар. 
-		.b-letter-chair.js-letter-chair
-			.about
-				.about__img
-					img(src="assets/img/product1.png", alt="")
-					.about__social Поделиться
-						a(href="#").about__social-icon.about__social-icon_vk
-						a(href="#").about__social-icon.about__social-icon_fb
-						a(href="#").about__social-icon.about__social-icon_ok
-
-				.about__red Василий,
-					br
-					| Вы заслужили отдых!
-				.about__time 
-					strong 15
-					span минут в кресле
-				.about__title CASADA BISMARK&nbsp;2
-				.about__descr
-					p Вращающиеся массажные головки помогают расслабить мышцы позвоночника, а сочетание с вибромассажем и функцией прогрева, поможет улучшить циркуляцию крови. Создайте свой уголок комфорта, который предназначен только для вас. Автоматические программы, которые включают в себя комбинацию нескольких видов массажа. Кроме того, вы можете получить доступ к ручному управлению программами с помощью пульта дистанционного управления, который является очень прост и понятен в использовании.
-				.about__more.js-expand-link.expanded Еще характеристики
-				.js-expanded-block.hidden
-					h2 Технические характеристики
-					h4 Общие характеристики:
-					table.about__table
-						tr
-							td Производство
-							td Casada/Германия
-						tr
-							td Гарантия
-							td 1 год на ремонт + 2 года на бесплатное сервисное обслуживание (при регистрации на сайте) Подробнее
-
-					h4 Общие характеристики:
-					table.about__table
-						tr
-							td Производство
-							td Casada/Германия
-						tr
-							td Гарантия
-							td 1 год на ремонт + 2 года на бесплатное сервисное обслуживание (при регистрации на сайте) Подробнее
-				.about__bottom
-					a(href="#modal").btn.btn-chair.js-open-popup Получить счастливый билет
-					a(href="/").about__close Поискать другое место
-				.letter-chair
-	.main-full-width.clearfix
-		.b-path
-			.b-path__header Как добраться:
-			.b-path__img
-				img(src="assets/img/africa-path.jpg", alt="")
-			.b-path__or или
-			.b-path__button.btn.btn-form.js-path-button есть идея получше
-		a(href="http://vsemassager.ru").sign www.vsemassager.ru
-	#modal.modal.mfp-hide.clearfix
-		.form-main__close.js-close-popup
-		.modal__left
-			.modal__left-divider
-			.modal__img
-			.modal__code
-		.modal__right 
-			.ticket
-				.ticket__caption Билет на райский отдых в кресле
-				.ticket__name CASADA BISMARK 2
-				form(action="").ticket__form
-					input#name(type="text", name="name", placeholder="Предъявитель").ticket__input
-					input#email(type="text", name="email", placeholder="Почта").ticket__input.ticket__input_half
-					input#phone(type="text", name="phone", placeholder="Телефон").ticket__input.ticket__input_half
-					.ticket__input-shiv
-					input(type="submit", value="Вперед").btn.btn-form
+block path
+	img(src="assets/img/africa-path.jpg", alt="")
