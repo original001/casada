@@ -14,3 +14,9 @@ $ ->
 					$ '.js-land-caption'
 						.fadeOut 400
 					return
+
+	$ '.js-expand-link'
+		.click ->
+			$(this).toggleClass 'expanded'
+			$ '.js-expanded-block'	
+				.toggleClass('hidden')

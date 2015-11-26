@@ -7,6 +7,7 @@
 @font-family-base: @ff-n-n;
 @line-height-base: 1.42;
 
+@color-base-text: #333333;
 @color-red-text: #ed0f33;
 @color-red-btn: #ff1339;
 html, body {
@@ -17,6 +18,7 @@ body {
 	position: relative;
 	line-height: @line-height-base;
 	-webkit-font-smoothing: antialiased;
+	color: @color-base-text;
 	&.ov {
 		overflow: hidden;
 	}
@@ -24,6 +26,14 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2;
 	font-weight: 700;
+}
+h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+h4 {
+	font-size: 20px;
+	margin-bottom: 10px;
 }
 p {
 	margin-bottom: 20px;
@@ -94,6 +104,14 @@ a {
 	height: 68px;
 	line-height: 68px;
 	font-size: 24px;
+}
+.btn-chair {
+	height: 72px;
+	line-height: 72px;
+	font-size: 26px;
+	display: inline-block;
+	padding: 0 25px;
+	width: auto;
 }
 
 @import url('../_less/icons.less');
@@ -361,9 +379,10 @@ a {
 	width: 970px;
 	min-height: 100%;
 	margin: auto;
-	padding: 50px;	
+	padding: 50px 50px 175px;	
 	background-color: #fff;
 	background-color: rgba(255,255,255,.9);
+	font-size: 18px;
 	&__red {
 		line-height: 1;
 		color: @color-red-text;
@@ -384,9 +403,6 @@ a {
 		font-size: 48px;
 		line-height: 1;
 		margin-bottom: 30px;
-	}
-	&__descr {
-		font-size: 18px;
 	}
 	&__img {
 		position: relative;
@@ -411,8 +427,18 @@ a {
 			border: 2px solid #fff;
 			margin-left: 10px;
 			margin-bottom: 2px;
+			background: 50% 50% no-repeat;
 			&:first-child {
 				margin-left: 17px;
+			}
+			&_fb {
+				background-image: data-uri('../ico/icon-fb.png');
+			}
+			&_ok {
+				background-image: data-uri('../ico/icon-ok.png');
+			}
+			&_vk {
+				background-image: data-uri('../ico/icon-vk.png');
 			}
 		}
 		&:after {
@@ -432,6 +458,11 @@ a {
 		.dashed(@width: 2px,@color: #cbdfed);
 		font-size: 20px;
 		font-weight: 400;
+		transition: color .175s;
+		margin-bottom: 20px;
+		&:hover {
+			color: lighten(#098fc8, 10%);
+		}
 		&:after {
 			content: '';
 			position: absolute;
@@ -442,8 +473,33 @@ a {
 			margin-left: 10px;
 			width: 9px;
 			height: 6px;
-			background:  data-uri('../ico/caret-donw.png') 0 0 no-repeat;
+			background:  data-uri('../ico/caret-top.png') 0 0 no-repeat;
 		}
+		&.expanded:after {
+			background-image: url('../ico/caret-donw.png');	
+		}
+	}
+	&__table {
+		width: 100%;
+		border-collapse: separate;
+		border-spacing: 5px;
+		margin-left: -5px;
+		margin-bottom: 5px;
+		td {
+			width: 50%;
+			vertical-align: top;
+		}	
+	}
+	&__bottom {
+		position: absolute;
+		z-index: 130;
+		bottom: 60px;
+	}
+	&__close {
+		font-size: 22px;
+		font-weight: bold;
+		color: #098fc8;
+		margin-left: 20px;
 	}
 }
 
