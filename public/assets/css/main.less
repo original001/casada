@@ -311,6 +311,7 @@ a {
 	}
 	&__text {
 		font-weight: bold;
+		.ff-7-n;
 		font-size: 22px;
 		width: 780px;
 		margin: 0 auto;
@@ -392,6 +393,7 @@ a {
 	}
 	&__time {
 		font-weight: bold;	
+		.ff-7-n;
 		font-size: 36px;
 		strong {
 			font-size: 48px;
@@ -400,6 +402,7 @@ a {
 	}
 	&__title {
 		font-weight: bold;
+		.ff-7-n;
 		font-size: 48px;
 		line-height: 1;
 		margin-bottom: 30px;
@@ -498,10 +501,84 @@ a {
 	&__close {
 		font-size: 22px;
 		font-weight: bold;
+		.ff-7-n;
 		color: #098fc8;
 		margin-left: 20px;
 	}
 }
 
+.modal {
+	position: relative;
+	width: 970px;
+	display: table;
+	margin: 20px auto; //*
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.75);
+	&__left, &__right {
+		display: table-cell;
+		background: #e6e4d7;
+		.bdrs(10px);
+	}
+	&__left {
+		float: left;	
+		width: 270px;
+	}
+	&__right {
+		margin-left: 270px;
+	}
+	&__img {
+		position: absolute;
+		left: -47px;
+		top: -140px;
+		width: 492px;
+		height: 376px;
+		background: url(../img/mark.png) 0 0 no-repeat;
+	}
+}
+
+.ticket {
+	padding: 45px;
+	&__caption {
+		font-size: 26px;		
+		text-transform: uppercase;
+		text-align: right;
+	}
+	&__name {
+		font-size: 48px;
+		font-weight: bold;
+		.ff-7-n;
+		color: @color-red-text;
+		text-align: right;
+		margin-bottom: 35px;
+		line-height: 1;
+	}
+	&__form {
+		text-align: justify;
+	}
+	&__input {
+		width: 100%;
+		height: 78px;
+		line-height: 78px;	
+		border: 1px solid #fff;
+		background: #ececec;
+		padding: 0 15px;
+		font-size: 20px;
+		.plh(#636363);
+		box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.15);
+		margin-bottom: 13px;
+		&_half {
+			width: 49%;
+		}
+		&-shiv {
+			display: inline-block;
+			width: 100%;
+			height: 0;
+			visibility: hidden;
+		}
+	}
+}
+// from magnific popup
+.mfp-bg {
+	.op(.3);
+}
 //==================================
 @import url('../_less/helper.less');

@@ -15,9 +15,7 @@
     "tests"
   ],
   "devDependencies": {
-    "slick-carousel": "~1.4.1",
     "magnific-popup": "~1.0.0",
     "bootstrap": "~3.3.4",
-    "fuelux": "~3.6.4"
   }
 }
