@@ -1,6 +1,10 @@
 $ ->
 	routing = ['africa','kalifornia']
 
+	$ window
+		.load ->
+			$('.js-loader').fadeOut(600);
+
 	$ 'body'
 		.on 'load.loader', ->
 			random = Math.round(Math.random() * (routing.length - 1))

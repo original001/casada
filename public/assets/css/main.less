@@ -243,7 +243,7 @@ a {
 		bottom: 4px;
 		width: 13px;
 		height: 29px;
-		background: url('../ico/popup-corner.png') 0 0 no-repeat;
+		background: data-uri('../ico/popup-corner.png') 0 0 no-repeat;
 	}
 	&.show {
 		.op(1);
@@ -479,7 +479,7 @@ a {
 			background:  data-uri('../ico/caret-top.png') 0 0 no-repeat;
 		}
 		&.expanded:after {
-			background-image: url('../ico/caret-donw.png');	
+			background-image: data-uri('../ico/caret-donw.png');	
 		}
 	}
 	&__table {
@@ -606,6 +606,16 @@ a {
 }
 .mfp-close {
 	display: none !important;
+}
+
+.loader {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	background: #fff url(../img/loader.gif) 50% 50% no-repeat;
 }
 //==================================
 @import url('../_less/helper.less');

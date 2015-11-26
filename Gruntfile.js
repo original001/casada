@@ -134,7 +134,7 @@ module.exports = function(grunt) {
 				files: [{
 					expand: true,
 					cwd: srcRoot + path,
-					src: ['**/*','!**/*.{less,coffee,ttf}','!**/_*','!**/.*','!fonts/webfonts/*.css'],
+					src: ['**/*','!**/*.{less,coffee,ttf}','!**/_*','!**/.*','!fonts/webfonts/*.css','!ico/**/*'],
 					dest: destRoot + path
 				}]
 			}
@@ -160,7 +160,7 @@ module.exports = function(grunt) {
 				tasks: ['less:fuelux']
 			},
 			jadelayout: {
-				files: [srcRoot + 'layout.jade',srcRoot + '_include/**/*.{jade,html}'],
+				files: [srcRoot + 'layout.jade',srcRoot + 'place.jade',srcRoot + '_include/**/*.{jade,html}'],
 				tasks: ['jade']
 			},
 			jade: {
