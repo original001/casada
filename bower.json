@@ -16,6 +16,6 @@
   ],
   "devDependencies": {
     "magnific-popup": "~1.0.0",
-    "bootstrap": "~3.3.4",
+    "bootstrap": "~3.3.4"
   }
 }
