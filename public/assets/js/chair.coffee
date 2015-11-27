@@ -1,4 +1,9 @@
 $ ->
+	$ window
+		.load ->
+			$ '.js-land-img'
+				.addClass 'expanded'
+
 	$ '.js-path-button' 
 		.click ->
 

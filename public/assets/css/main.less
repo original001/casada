@@ -283,6 +283,10 @@ a {
 	&__img {
 		height: 100%;
 		overflow: hidden;
+		transition: transform 5s linear;
+		&.expanded {
+			transform: scale(1.3);
+		}
 		img {
 			min-height: 100%;
 		}
